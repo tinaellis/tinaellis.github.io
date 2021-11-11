@@ -1,37 +1,12 @@
-## Welcome to GitHub Pages
+## Time to Git-Init
+I am a Cybersecurity student currently learning about about networks and digital forensics. I will be updating this page with lessons learned in network security, forensics, cyberterrorism, and information security whenever I can.
 
-You can use the [editor on GitHub](https://github.com/tinaellis/tinaellis.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Feel free to swing by my [GitHub profile](https://https://github.com/tinaellis) to see what I am currently working on.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Employers and Internships
+Because of the nature of my academic projects, I am unable to make many of my GitHub repositories public. However, I am able to share these repositories privately upon your request.
 
-### Markdown
+### Suggestions or Contact
+This blog is a work in progress and may include errors as I stumble through the new concepts I am learning. If you find an error or have a suggestion for improvement, please reach out to me.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tinaellis/tinaellis.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+You can find me on Twitter at [@Cybersec_Tina](https://twitter.com/cybersec_tina) or [LinkedIn](https://www.linkedin.com/in/creativelytinaellis/).
