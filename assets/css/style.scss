@@ -8,6 +8,7 @@ section {
 
     #title {
         margin: 0;
+        padding: 0 0 5px 0;
     }
 
     /* set links inside nav */
@@ -23,5 +24,10 @@ section {
     /* Right-aligned section inside the top navigation */
     .topnav-right {
         float: right;
+    }
+
+    /* Set margin for headings */
+    h1, h2, h3 {
+        margin-top: 10px;
     }
 }
