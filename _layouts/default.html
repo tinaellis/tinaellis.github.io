@@ -26,11 +26,11 @@
             <h1>{{ site.title | default: site.github.repository_name }}</h1>
             <p>{{ site.description | default: site.github.project_tagline }}</p>
             <hr>
-            <div class="topnav">
-                {% for item in site.data.navigationList.docs %}
-                    <a href="{{ item.url }}">{{ item.title }}</a>
-                {% endfor %}
-            </div>
+        </div>
+        <div class="topnav">
+            {% for item in site.data.navigationList.docs %}
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            {% endfor %}
         </div>
 
         {{ content }}
