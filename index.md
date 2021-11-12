@@ -1,5 +1,5 @@
 <ul>
-   {% for item in site.data.samplelist.docs %}
+   {% for item in site.data.navigationList.docs %}
       <li><a href="{{ item.url }}">{{ item.title }}</a></li>
    {% endfor %}
 </ul>
