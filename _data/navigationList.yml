@@ -1,0 +1,7 @@
+docs:
+
+- title: Home
+  url: index.md
+
+- title: Python
+  url: python.md

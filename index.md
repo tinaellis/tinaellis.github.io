@@ -1,3 +1,8 @@
+<ul>
+   {% for item in site.data.samplelist.docs %}
+      <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+   {% endfor %}
+</ul>
 ## Time to Git-Init
 I am a Cybersecurity student currently learning about about networks and digital forensics. I will be updating this page with lessons learned in network security, forensics, cyberterrorism, and information security whenever I can.
 
