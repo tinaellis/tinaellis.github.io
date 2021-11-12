@@ -1,31 +1,16 @@
----
----
-
 @import "jekyll-theme-midnight";
 
-section {
-    margin-top: 0px;
-  
-    #title {
-      margin: 0;
-      padding: 0 0 5px 0;
-    }
-    /* set links inside nav */
-    .topnav a {
-        float: left;
-        color: #ffcc00;
-        text-align: center;
-        padding: 0 10px;
-        text-decoration: none;
-        font-size: 11px;
-    }
+/* set links inside nav */
+.topnav a {
+     float: left;
+    color: #ffcc00;
+    text-align: center;
+    padding: 0 10px;
+    text-decoration: none;
+    font-size: 11px;
+}
     
-        /* Right-aligned section inside the top navigation */
-    .topnav-right {
-        float: right;
-    }
-    h2 {
-        margin: 0;
-    }
-  }
-
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+    float: right;
+}
