@@ -1,7 +1,8 @@
 ## Python Strings
-Back
+<a href="python">Back</a>
+
 ### STRING BASICS
-```
+```{python}
 # prints each letter separately.
     name = 'Juliet'
     for ch in name:
