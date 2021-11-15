@@ -5,4 +5,4 @@ This libary contains my study notes from various python programming courses I ha
 
 <a href="https://trinket.io/python/d01dbd07e2?showInstructions=true" target="_blank">Recursion</a>
 
-<a href="https://trinket.io/python/d1f4735339?showInstructions=true" target="_blank">Recursion</a>
+<a href="https://trinket.io/python/d1f4735339?showInstructions=true" target="_blank">Prime Number Calculator</a>
