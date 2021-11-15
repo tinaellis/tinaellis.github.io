@@ -2,7 +2,7 @@
 <a href="python">Back</a>
 
 ### STRING BASICS
-```{python}
+```python
 # prints each letter separately.
 name = 'Juliet'
 for ch in name:
@@ -26,14 +26,14 @@ while index < len(city):
 ```
 
 ### SLICING
-```
+```python
 message = 'Hello world'
 print(message[0:5]) # find range | 0 is starting point, and 5 is ending point minus one.
 print(message[:5]) # same as above
 print(message[6:]) # prints value at index position 6 through the end.
 ```
 ### TEST, SEARCH AND MANIPULATE STRINGS
-```
+```python
 # in and not in operators
 text = 'Four score and seven years ago'
 if 'seven' in text:
@@ -42,11 +42,11 @@ if 'blanket' not in text:
     print('the string blanket was not found.')
 ```
 ### STRING METHODS
-```
+```python
 # general format: stringvariable.method(arguments) 
 ```
 ### STRING TESTING METHODS
-```
+```python
 # RETURNS TRUE IF STRING IS....
 isalnum() # only alphabetic letters or digits
 isalpha() # only alphabetic letters
@@ -56,7 +56,7 @@ isspace() # only whitespace characters (\n) (\t)
 isupper() # all of the letters are uppercase
 ```
 ### STRING MODIFICATION METHODS
-```
+```python
 lower()         # convert to lowercase
 lstrip()        # leading whitespace characters removed, spaces, (\n) (\t) at beginning
 lstrip(char)    # all instances of char that appear at beginning removed 
@@ -67,7 +67,7 @@ strip(char)     # all instances of char that appear at the beginning and end rem
 upper()         # convert to uppercase
 ```
 ### SEARCH AND REPLACE METHODS
-```
+```python
 # Substring arguments below are any string
 endswith(substring)   # returns true if string ends with substring
 find(substring)       # returns the lowers index in the string where substring is found. 
@@ -76,7 +76,7 @@ replace(old, new)     # replaces old with new
 startswith(substring) # returns true if string starts with substring
 ```
 ### STRING METHODS IN USE
-```
+```python
 message = 'Hello world'
 print(message.lower()) # running lowercase method on string
 print(message.upper()) # runs uppercase
@@ -95,7 +95,7 @@ date_list = date_string.split('/') # variable is now ['11','26','2018']
 print('Month: ',date_list[0]) # returns Month: 11
 ```
 ### CONCATENATE STRINGS
-```
+```python
 # Concatenate strings - when you only have a few variables to concatenate:
 greeting = 'Hello'
 firstname = 'Tina'
@@ -113,7 +113,7 @@ message = '{}, {}. Welcome!'.format(greeting, firstname) # older method
         message = f'{greeting}, {firstname.upper()}. Welcome!' # adds all caps method
 ```
 ### SEE DIRECTORY AND GET HELP
-```
+```python
 # See all methods available to variables using dir. 
 # Gives broad overview of all attributes and methods available.
     print(dir(firstname))
@@ -126,7 +126,7 @@ message = '{}, {}. Welcome!'.format(greeting, firstname) # older method
 ```
 
 ### OPEN FILE AND READ CONTENTS TO A STRING
-```
+```python
 a_file = open("sample.txt", "r")
 
 string_without_line_breaks = ""
