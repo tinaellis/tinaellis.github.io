@@ -1,27 +1,37 @@
 ## Python Dictionaries and Sets
 <a href="python">Back</a>
 
-You can check to see what class type is stored within a variable.
-```python
-print(type(variable_name))
-```
-## Dictionaries
+#### h4 test
+
 ### Syntax
 Basic syntax for a dictionary.
 
 ```python
 variable_name = {'keyname':'value','keyname':'value'}
 ```
+Basic syntax for a set.
+```python
+variable_name=set(['a','b','c','d'])
+```
+Check the class type of a variable.
+```python
+print(type(variable_name))
+```
+## Dictionaries
+A dictionary is an object that stores a collection of data. Each element in a dictionary has two parts, key and value. 
 
-### Creation, Adding Elements, Retreiving, Deleting.
+The key is used to locate its value. There cannot be duplicate keys in a dictionary. When a key is assigned to a value, the new value replaces the existing value.
+
+### Creating, Adding Elements, Retrieving, Deleting.
 ```python
 # Create empty dictionary.
 phonebook={}
 phonebook = dict() # built in dict() method also creates empty dictionary. 
-    # make sure you didn't create anthing called dict 
+    # when you use this method, make sure you haven't created anything called "dict"
 
 # Create a dictionary with elements.
-phonebook = {'Chris':'555-1111', 'Katie':'555-2222', 'Joe':'555-3333'} # 'chris' = key & '555-1111' = value.
+phonebook = {'Chris':'555-1111', 'Katie':'555-2222', 'Joe':'555-3333'} 
+            # 'chris' = key & '555-1111' = value.
 example2 = dict([(1,"welcome"),(2,"to"),(3,"Python")]) # passing list - same result as above
 example3 = {1:'Welcome',2:'to',3:'Python'}  # just another example.
 
@@ -36,7 +46,7 @@ phonebook['Ray'] = '555-4444' # if key already exists, it's value will be change
 phonebook['Place'] = ('New jersey','NY')
     # will print {'Ray':'555-4444', 'Place' ('New Jersey','NY')}
 
-# Retreive value from dictionary.
+# Retrieve value from dictionary.
 phonebook['Chris'] # returns '555-1111' | remember string comparisons are case sensitive.
 print(phonebook['Chris'])
     # Raises error exception if value doesn't exist.
@@ -46,13 +56,16 @@ del phonebook['Chris'] # to prevent error exception, check if key exists before 
 ```
 
 ### Elements, data types, assignment, loops, and nested dictionaries.
+Keys in a dictionary must be immutable, but their cooresponding values can be any type of object.
+
+Keys: can be strings, integers, tuples.
+Values: can be integer, string, and lists.
+
 ```python
 # Get number of elements in a dictionary.
 number_elements = len(phonebook)
 
 # Mix data types in a dictionary:
-# Keys can be strings, integers, tuples.
-# values can be integer, string, and lists.
 test_scores = {'Kayla':[88,92,100], 'Jacob':[95,74,81]}
 
 # Assign dictionary value to a variable.
@@ -76,13 +89,13 @@ print(student_info['Name']['First'])
 ```
 
 ### Some Dictionary Methods
-Clear, Get, Itesm and Keys Methods.
+Clear, Get, Items and Keys Methods.
 ```python
-# The clear method
+# Clear Method
 # deletes all elements in a dictionary leaving it empty.
 phonebook.clear()
 
-# The get method
+# Get Method
 # Doesn't raise exception if key isn't found, instead displays default message.
 dictionary.get(key, default)
 # Example: 
@@ -91,7 +104,7 @@ dictionary.get(key, default)
 # or
 print(phonebook.get('sam'))
 
-# The items method
+# Items Method
 # Returns all keys and values. They are returned as a special type of sequence known as 
 # a dictionary view. Each element in dictionary view is a tuble and each typle contains a key
 # and it's associated value.
@@ -105,7 +118,7 @@ phonebook.items()
 for key, value in phonebook.items():
     print(key,value)
 
-# The keys method
+# Keys Method
 # Returns all of a dictionary's keys as a dictionary view.
 phonebook.keys()
 # returns ['Chris','Sally'] <-- just the keys
@@ -149,7 +162,7 @@ for val in phonebook.values():
     print(val)
 ```
 
-The fromkeys method
+Fromkeys Method
 ```python
 # allows you to create a dictionary based on a set of predefined keys and values.
 keys = {'a','b','c','d'}
@@ -160,10 +173,7 @@ dict.fromkeys(keys,value)
 
 ## Sets
 With sets you can pass one iterable argument to the set function (lists, tuples, or string).
-### Syntax
-```python
-variable_name=set(['a','b','c','d'])
-```
+
 ### Creation, Converting to a Set, Number of Elements
 ```python
 # Create a set
@@ -308,7 +318,7 @@ pickle.dump(phonebook,outputfile)
 outputfile.close()
 ```
 
-### Retreive pickled data from file:
+### Retrieve pickled data from file:
 ```python
 import pickle
 input_file = open('phonebook.dat','rb') # 'rb' is the mode for reading
