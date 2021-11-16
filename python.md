@@ -14,3 +14,5 @@ The following link to Trinket.io website.
 <a href="python-strings">Python Strings</a>
 
 <a href="python-lists">Python Lists</a>
+
+<a href="python-dictionaries-and-sets">Python Dictionaries and Sets</a>
