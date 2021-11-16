@@ -1,18 +1,31 @@
 ## Python Dictionaries and Sets
 <a href="python">Back</a>
 
-### Basic Syntax
-
+### Syntax Review
 ```python
-# Dictionary Syntax
-variable_name = {'keyname':'value','keyname':'value'}
+# List Syntax
+empty_list = []
+empty_list = list()
+list = [1,2,3]
+
+# Tuple Syntax
+empty_tuple = ()
+empty_tuple = tuple()
+tuple = (1,2,3,4)
 
 # Set Syntax
+empty_set = set()
 variable_name=set(['a','b','c','d'])
+
+# Dictionary Syntax
+empty_dictionary={}
+empty_dictionary = dict()
+variable_name = {'keyname':'value','keyname':'value'}
 
 # Check the class type of a variable.
 print(type(variable_name))
 ```
+
 ## Dictionaries
 A dictionary is an object that stores a collection of data. Each element in a dictionary has two parts, key and value. 
 
@@ -28,8 +41,7 @@ phonebook = dict() # built in dict() method also creates empty dictionary.
 # Create a dictionary with elements.
 phonebook = {'Chris':'555-1111', 'Katie':'555-2222', 'Joe':'555-3333'} 
             # 'chris' = key & '555-1111' = value.
-example2 = dict([(1,"welcome"),(2,"to"),(3,"Python")]) # passing list - same result as above
-example3 = {1:'Welcome',2:'to',3:'Python'}  # just another example.
+example2 = {1:'Welcome',2:'to',3:'Python'} # example 2
 
 # Test if value is in a dictionary - allows you to avoid error exception.
 if 'Chris' in phonebook:
@@ -61,8 +73,10 @@ Values: can be integer, string, and lists.
 # Get number of elements in a dictionary.
 number_elements = len(phonebook)
 
-# Mix data types in a dictionary:
-test_scores = {'Kayla':[88,92,100], 'Jacob':[95,74,81]}
+# Mixed data types in a dictionary:
+test_scores = {'Kayla':[88,92,100], 'Jacob':[95,74,81]} # example 1
+
+test_scores2 = dict([(1,"welcome"),(2,"to"),(3,"Python")]) # example 2
 
 # Assign dictionary value to a variable.
 kayla_scores = test_scores['Kayla']
@@ -168,7 +182,10 @@ dict.fromkeys(keys,value)
 ```
 
 ## Sets
-With sets you can pass one iterable argument to the set function (lists, tuples, or string).
+A set contains a collection of unique values and works like a mathmatical set. Set facts:
+- All of the elements in a set must be unique
+- Sets are unordered
+- Elements stored in a set can be different data types (list, tuples, strings)
 
 ### Creation, Converting to a Set, Number of Elements
 ```python
@@ -231,7 +248,7 @@ if 11 not in my set:
 print(*set1, sep = '\n')
 ```
 
-### SET METHODS
+### Set Methods
 ```python
 set1 = set([1,2,3,4,5])
 set2 = set([4,5,6,7,8])
@@ -272,18 +289,10 @@ set3 = set1.symmetric_difference(set2)
     set3 = set1 ^ set2
 ```
 
-### OPERATORS WITH SETS
+### Subsets and Supersets
+If one set contains all of the same elements of another set it is considered a subset and the other set is a superset.
 ```python
-set1 == set2 # returns true or false
-
-set1 > set2 # returns true or false
-
-### SUBSET AND SUPERSET ###
-# If one set contains all of the same elements of another set it is considered 
-# a subset and the other set is a superset.
-
-    # returns true if it is false if not:
-
+    # These will return true if it is or false if not:
     # Find subset with issubset
     set2.issubset(set1) 
     # Find superset with issuperset

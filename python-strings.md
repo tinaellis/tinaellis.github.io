@@ -1,7 +1,7 @@
 ## Python Strings
 <a href="python">Back</a>
 
-### STRING BASICS
+### String Basics
 ```python
 # prints each letter separately.
 name = 'Juliet'
@@ -25,14 +25,14 @@ while index < len(city):
     index += 1
 ```
 
-### SLICING
+### Slicing
 ```python
 message = 'Hello world'
 print(message[0:5]) # find range | 0 is starting point, and 5 is ending point minus one.
 print(message[:5]) # same as above
 print(message[6:]) # prints value at index position 6 through the end.
 ```
-### TEST, SEARCH AND MANIPULATE STRINGS
+### Test, Search and Manipulate Strings
 ```python
 # in and not in operators
 text = 'Four score and seven years ago'
@@ -41,11 +41,11 @@ if 'seven' in text:
 if 'blanket' not in text:
     print('the string blanket was not found.')
 ```
-### STRING METHODS
+### String Methods
 ```python
 # general format: stringvariable.method(arguments) 
 ```
-### STRING TESTING METHODS
+### String Testing Methods
 ```python
 # RETURNS TRUE IF STRING IS....
 isalnum() # only alphabetic letters or digits
@@ -55,7 +55,7 @@ islower() # all of the letters are lowercase
 isspace() # only whitespace characters (\n) (\t)
 isupper() # all of the letters are uppercase
 ```
-### STRING MODIFICATION METHODS
+### String Modification Methods
 ```python
 lower()         # convert to lowercase
 lstrip()        # leading whitespace characters removed, spaces, (\n) (\t) at beginning
@@ -66,7 +66,7 @@ strip()         # all leading and trailing whitespace characters removed
 strip(char)     # all instances of char that appear at the beginning and end removed.
 upper()         # convert to uppercase
 ```
-### SEARCH AND REPLACE METHODS
+### Search and Replace Methods
 ```python
 # Substring arguments below are any string
 endswith(substring)   # returns true if string ends with substring
@@ -75,7 +75,7 @@ find(substring)       # returns the lowers index in the string where substring i
 replace(old, new)     # replaces old with new
 startswith(substring) # returns true if string starts with substring
 ```
-### STRING METHODS IN USE
+### String Methods in Use
 ```python
 message = 'Hello world'
 print(message.lower()) # running lowercase method on string
@@ -94,7 +94,7 @@ date_string = '11/26/2018'
 date_list = date_string.split('/') # variable is now ['11','26','2018']
 print('Month: ',date_list[0]) # returns Month: 11
 ```
-### CONCATENATE STRINGS
+### Concatenate Strings
 ```python
 # Concatenate strings - when you only have a few variables to concatenate:
 greeting = 'Hello'
@@ -112,7 +112,7 @@ message = '{}, {}. Welcome!'.format(greeting, firstname) # older method
         # and you can add functions to the placeholders:
         message = f'{greeting}, {firstname.upper()}. Welcome!' # adds all caps method
 ```
-### SEE DIRECTORY AND GET HELP
+### View Directory and Get Help
 ```python
 # See all methods available to variables using dir. 
 # Gives broad overview of all attributes and methods available.
@@ -125,7 +125,7 @@ message = '{}, {}. Welcome!'.format(greeting, firstname) # older method
     print(help(str.lower))
 ```
 
-### OPEN FILE AND READ CONTENTS TO A STRING
+### Open File and Read Contents to a String
 ```python
 a_file = open("sample.txt", "r")
 

@@ -1,16 +1,31 @@
 ## Python Lists
 <a href="python">Back</a>
 
-### Create Empty Lists, Tuples and Sets
+### Syntax Review
 ```python
+# List Syntax
 empty_list = []
 empty_list = list()
+list = [1,2,3]
 
+# Tuple Syntax
 empty_tuple = ()
 empty_tuple = tuple()
+tuple = (1,2,3,4)
 
+# Set Syntax
 empty_set = set()
+variable_name=set(['a','b','c','d'])
+
+# Dictionary Syntax
+empty_dictionary={}
+empty_dictionary = dict()
+variable_name = {'keyname':'value','keyname':'value'}
+
+# Check the class type of a variable.
+print(type(variable_name))
 ```
+
 ### Lists
 ```python
  _items_in_list = len(listname)
