@@ -10,7 +10,10 @@ Set Syntax
 ```python
 variable_name=set(['a','b','c','d'])
 ```
-Check the class type of a variable ```python print(type(variable_name))```
+Check the class type of a variable.
+```python
+print(type(variable_name))
+```
 
 ## Dictionaries
 A dictionary is an object that stores a collection of data. Each element in a dictionary has two parts, key and value. 
