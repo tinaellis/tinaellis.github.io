@@ -2,19 +2,17 @@
 <a href="python">Back</a>
 
 ### Basic Syntax
-Dictionary Syntax
+
 ```python
+# Dictionary Syntax
 variable_name = {'keyname':'value','keyname':'value'}
-```
-Set Syntax
-```python
+
+# Set Syntax
 variable_name=set(['a','b','c','d'])
-```
-Check the class type of a variable.
-```python
+
+# Check the class type of a variable.
 print(type(variable_name))
 ```
-
 ## Dictionaries
 A dictionary is an object that stores a collection of data. Each element in a dictionary has two parts, key and value. 
 
