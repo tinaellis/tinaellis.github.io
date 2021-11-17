@@ -16,3 +16,7 @@ The following link to Trinket.io website.
 <a href="python-lists">Python Lists</a>
 
 <a href="python-dictionaries-and-sets">Python Dictionaries and Sets</a>
+
+<a href="design-class">Tips for Designing Classes</a>
+
+<a href="python-classes">Python Classes</a>

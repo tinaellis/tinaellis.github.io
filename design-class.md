@@ -13,22 +13,22 @@
 
 3 - Design a UML Diagram
 Unified modeling language (UML) diagram:
-    # TOP: Name of class
-    # MIDDLE: List of class's attributes
-    # BOTTOM: List of class's methods
+- TOP: Name of class
+- MIDDLE: List of class's attributes
+- BOTTOM: List of class's methods
 
 ## Example
 ### Attributes and Methods Identified and Separated
-- What must the class know (attributes):
-    -- customer name
-    -- customer address
-    -- customer phone
+What must the class know (attributes):
+- customer name
+- customer address
+- customer phone
 
-- What must the class do (methods):
-    -- initialize an object
-    -- set and return name
-    -- set and return address
-    -- set and return phone
+What must the class do (methods):
+- initialize an object
+- set and return name
+- set and return address
+- set and return phone
 
 ### Create UML Diagram
 ```python
