@@ -7,7 +7,7 @@ With inheritance, a child class inherits all of the attributes and methods from 
 ### Composition
 Composition is a design model where an object knows another object and explicitly delegates some tasks to it. With composition, you control what is inherited from the parent class. Composition is referred to as a "has-a" relationship.
 
-- Composition Example <a href="https://trinket.io/python/4bf9efdc84?showInstructions=true" target="_blank">Rosie the Robot</a>
+- Composition example <a href="https://trinket.io/python/4bf9efdc84?showInstructions=true" target="_blank">Rosie the Robot</a>
 
 - Use composition when you can
 - Use inheritance when you must
