@@ -66,8 +66,8 @@ del phonebook['Chris'] # to prevent error exception, check if key exists before 
 ### Elements, data types, assignment, loops, and nested dictionaries.
 Keys in a dictionary must be immutable, but their cooresponding values can be any type of object.
 
-Keys: can be strings, integers, tuples.
-Values: can be integer, string, and lists.
+- **Keys:** can be strings, integers, tuples.
+- **Values:** can be integer, string, and lists.
 
 ```python
 # Get number of elements in a dictionary.

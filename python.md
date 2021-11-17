@@ -20,3 +20,5 @@ The following link to Trinket.io website.
 <a href="design-class">Tips for Designing Classes</a>
 
 <a href="python-classes">Python Classes</a>
+
+<a href="inheritance">Inheritance and Composition</a>

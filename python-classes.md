@@ -1,6 +1,8 @@
 ## Python Classes
 <a href="python">Back</a>
-- Also see: <a href="design-class">Tips for Designing a Class</a>
+Also see:
+- <a href="design-class">Tips for Designing a Class</a>
+- <a href="inheritance">Inheritance and Composition</a>
 
 Creating objects is the fundamental purpose of object oriented programming. Objects contain both data (data attributes) and procedures (methods). A class is code that specifies the data attributes and methods for a particular type of object.
 
