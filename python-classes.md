@@ -6,9 +6,9 @@ Creating objects is the fundamental purpose of object oriented programming. Obje
 
 ### Name, Initializer Method, and Self Parameter
 
-- Class Names: Class names are typically capitalized as a way to distinguish from variables.
-- Initializer Method: Most classes also include an initializer method (__init__) as the first method of the class. The __init__ method initializes the object's data attributes and is automatically executed when an instance of the class is created in memory.
-- Self Parameter: The self parameter provides a way for the method to know which object's data attributes its supposed to opperate on.
+- **Class Names:** Class names are typically capitalized as a way to distinguish from variables.
+- **Initializer Method:** Most classes also include an initializer method (__init__) as the first method of the class. The __init__ method initializes the object's data attributes and is automatically executed when an instance of the class is created in memory.
+- **Self Parameter:** The self parameter provides a way for the method to know which object's data attributes its supposed to opperate on.
 
 ```python
 class Coin
@@ -18,10 +18,10 @@ class Coin
 In this example, when the object is created in memory that refers to this class, the __init__ method executes and the self parameter is automatically assigned the object that was just created. self.sideup = 'Heads' assigns the string 'Heads' to the sideup data attribute belonging to the object that was just created. This means that every object we create from the Coin class will initially have a sideup attribute that is set to 'Heads'.
 
 ### Attributes, Mutators, and Accessors
-- Attributes: Attributes are identified in the initializer method, including self and the additional arguments provided.
-- Mutators: Mutators are only needed if attribute will be changed during the program execution. These are the "set" methods.
-- Accessors: Accessors allow you to return attribute values. These are the "get" methods.
-- String Method: The string method can be used to display information when the print function is called. Basically, this method returns the object's state as a string.
+- **Attributes:** Attributes are identified in the initializer method, including self and the additional arguments provided.
+- **Mutators:** Mutators are only needed if attribute will be changed during the program execution. These are the "set" methods.
+- **Accessors:** Accessors allow you to return attribute values. These are the "get" methods.
+- **String Method:** The string method can be used to display information when the print function is called. Basically, this method returns the object's state as a string.
 
 ```python
 class PersonalInfo: # class name
