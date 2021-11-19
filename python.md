@@ -11,9 +11,11 @@ The following link to Trinket.io website.
 <a href="https://trinket.io/python/d1f4735339?showInstructions=true" target="_blank">Prime Number Calculator</a>
 
 ### Python Code Library
+<a href="python-basics">Python Basics</a>
+
 <a href="python-strings">Python Strings</a>
 
-<a href="python-lists">Python Lists</a>
+<a href="python-lists">Python Lists and Tuples</a>
 
 <a href="python-dictionaries-and-sets">Python Dictionaries and Sets</a>
 

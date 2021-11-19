@@ -1,4 +1,4 @@
-## Python Lists
+## Python Lists and Tuples
 <a href="python">Back</a>
 
 ### Syntax Review
@@ -102,25 +102,6 @@ flat_list = [item for l in grid for item in l] # unnest the list.
 ```python
 # tuples are immutable - can't be changed.
 tuple_lists = (1,2,3,4) # parenthesis
-```
-### Sets
-```python
-set_lists = {'Curly','Brackets','Rock'} # curly brackets
-# Sets automatically remove duplicates
-# Sets do not keep order of items
-
-find_if_value_is_in_list = print('math' in setname) # called a membership test
-
-# Find what values a set shares or doesn't share with another set:
-print(setname.intersection(setname2)) # intersection method
-    # results return the values that are in both sets
-
-print(setname.difference(setname2)) # difference method
-    # results return the values that are in setname but not setname2
-
-# Combine sets using union method.
-setname.union(setname2) # union method
-    # Combines sets and automatically removes duplicates. 
 ```
 ### Converting between Lists and Tuples
 ```python

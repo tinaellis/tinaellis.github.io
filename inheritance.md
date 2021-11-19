@@ -31,7 +31,7 @@ snoopy.bark()
 snoopy.eat()
 ```
 
-### Composition - "has-a relationship" example
+### Composition "has-a relationship" example
 Here we made each skill a class and composed a new class by including objects from other classes.
 
 ```python

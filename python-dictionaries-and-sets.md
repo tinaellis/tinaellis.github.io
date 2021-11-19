@@ -246,6 +246,9 @@ if 11 not in my set:
 
 # print items on a new line as it iterates.
 print(*set1, sep = '\n')
+
+# membership test - identify if value is in a set.
+find_if_value_is_in_set = print('math' in setname) 
 ```
 
 ### Set Methods
@@ -263,21 +266,29 @@ set3 = set1.union(set2)
     ### SHORTHAND: | ###
     set3 = set1 | set2
 
+    ### PRINT ###
+    set1.union(set2)
+
 #### INTERSECTION METHOD ####
-# The intersection of two sets contains only the elements that are found in both sets.
+# The intersection of two sets contains only the elements that are found in both sets. This allows you to see what values they share or don't share.
 set3 = set1.intersection(set2)
 
     ### SHORTHAND: & ###
     set3 = set1 & set2
 
+    ### PRINT ###
+    print(set1.intersection(set2))
+
 #### DIFFERENCE METHOD ####
-# The difference of set1 and set2 is the elements that appear in set1 but do not appear
-# in set2.
+# The difference of set1 and set2 is the elements that appear in set1 but do not appear in set2.
 
 set3 = set1.difference(set2)
 
     ### SHORTHAND: - ###
     set3 = set1 - set2
+
+    ### PRINT ###
+    print(set1.difference(set2))
 
 #### SYMMETRIC DIFFERENCE METHOD ####
 # The symmetric difference of two sets is a set that contains the elements that are
