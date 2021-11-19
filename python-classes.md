@@ -1,5 +1,6 @@
 ## Python Classes
 <a href="python">Back</a>
+
 Also see:
 - <a href="design-class">Tips for Designing a Class</a>
 - <a href="inheritance">Inheritance and Composition</a>
