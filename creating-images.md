@@ -20,9 +20,11 @@
 
 <h2>Storage Forensics</h2>
 <p>A forensics image created with FTK imager, is an identical copy of a hard-drive. This includes all of the data stored in sectors, partitions, files, folders, deleted files, unallocated spaces and master boot records.</p>
+
 <div class="intro">
     <h4>Create a Forensics Image - FTK Imager</h4>
-<div>
+</div>
+
 <div class="steps">
     <b>Source Evidence Type:</b>
     <p>Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
@@ -37,9 +39,11 @@
     </ul>
     <p>When FTK Imager finishes, a summary screen will appear that includes the hash digest information. After your analysis is completed, you can create a second hash digest to determine if the drive or file was changed during your forensics investigation.</p>
 </div>
+
 <div class="intro">
     <h4>Create a Forensics Image - NotMyFault</h4>
-<div>
+</div>
+
 <div class="steps">
     <b>Source Evidence Type:</b>
     <p>Encrypted technologies such as Bitlocker drives. Can also be used with Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
@@ -52,7 +56,7 @@
         <li>Under System Failure, select "Complete Memory Dump" or Kernel</li>
         <li>Check "Automatically Restart"</li>
     </ul>
-    <h3>Part 2</h2>
+    <h3>Part 2</h3>
     <p>From NotMyFault</p>
     <ul>
         <li>Go to folder where NotMyFault is downloaded > x64 > NotMyFault</li>
