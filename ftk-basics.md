@@ -9,7 +9,7 @@
 
 <div class="intro">
     <h4>Add Evidence to FTK</h4>
-<div>
+</div>
 
 <div class="steps">
     <h3>FTK</h3>
@@ -30,12 +30,12 @@
         <li>Select Finish</li>
     </ul>
     <b>Additional Resources</b>
-    <p><a href="https://vimeo.com/384252876" target="_blank">Simplified process of loading forensics image</a></p>
+    <ul><li><a href="https://vimeo.com/384252876" target="_blank">Simplified process of loading forensics image</a></li></ul>
 </div>
 
 <div class="intro">
     <h4>FTK Dashboard</h4>
-<div>
+</div>
 
 <div class="steps">
     <h3>Overview Tab</h3>
@@ -53,14 +53,16 @@
     <h3>Graphics Tab</h3>
     <p>The graphics tab is meant for finding easy stuff and analyzing image files.</p>
     <b>Additional Resources</b>
-    <p><a href="https://vimeo.com/384253238" target="_blank">Finding and viewing files with bad extensions</a></p>
-    <p><a href="https://vimeo.com/384244998" target="_blank">Bookmarking evidence and creating reports</a></p>
-    <p><a href="https://vimeo.com/384252473" target="_blank">Exporting and Viewing Videos</a></p>
+    <ul>
+        <li><a href="https://vimeo.com/384253238" target="_blank">Finding and viewing files with bad extensions</a></li>
+        <li><a href="https://vimeo.com/384244998" target="_blank">Bookmarking evidence and creating reports</a></li>
+        <li><a href="https://vimeo.com/384252473" target="_blank">Exporting and Viewing Videos</a></li>
+    </ul>
 </div>
 
 <div class="intro">
     <h4>Performing Basic Text Searches</h4>
-<div>
+</div>
 <div class="steps">
     <h3>Build a Word Index</h3>
     <ul>
