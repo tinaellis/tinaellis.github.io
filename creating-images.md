@@ -1,25 +1,25 @@
 ## Creating Forensic Images
 <a href="forensics">Back</a>
 
-### Memory Forensics
+## Memory Forensics
 Memory forensics is the process of capturing the running memory of a device then analyzing the memory for evidence. Memory forensics is valuable during incident response when evidence of malicious code can still be found in the computer RAM. Memory dumps provide a snapshot of the memory which can be used to identify the running processes that were occurring when the capture was taken.
 
 **Source Evidence Type:**
-Volatile Memory: anything stored in RAM.
+Volatile Memory, anything stored in RAM.
 
-**Capturing a Memory Dump:**
+### Capturing a Memory Dump:
 1. Open AccessData FTK Imager
 2. File > Capture Memory
 3. Select the location where you want to save the output
 4. Select 'Capture Memory'
 
-### Storage Forensics
+## Storage Forensics
 A forensics image created with FTK imager, is an identical copy of a hard-drive. This includes all of the data stored in sectors, partitions, files, folders, deleted files, unallocated spaces and master boot records.
 
 **Source Evidence Type:**
 Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.
 
-**Creating a Forensics Image:**
+### Creating a Forensics Image:
 **From FTK Imager:**
 1. Open AccessData FTK Imager (You can run FTK Imager from a thumb drive (or a CD) to create a disk image or to image certain folders of a live system.)
 2. Create Disk Image
