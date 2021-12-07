@@ -44,7 +44,7 @@ section {
         h1, h2, h3 {
             color: #000000;
         }
-        ul, li {
+        ul li::before {
             color: #ffcc00;
         }
     }
