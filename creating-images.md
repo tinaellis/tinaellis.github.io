@@ -49,15 +49,14 @@
     <p>Encrypted technologies such as Bitlocker drives. Can also be used with Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
     <p>NotMyFault is a tool that can be downloaded directly from Microsoft. To create a memory dump from NotMyFault, you will need to tailor these instructions according to the Windows OS version you have installed. Here are the instructions for creating a Windows 7 memory dump.</p>
     <p><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/notmyfault" target="_blank">Download NotMyFault from Microsoft</a></p>
-    <h3>Part 1</h3>
+    <h3>From System Settings</h3>
     <p>Configure where your system failure files are saved:</p>
     <ul>
         <li>System Settings > Advanced > Startup and Recovery > Settings</li>
         <li>Under System Failure, select "Complete Memory Dump" or Kernel</li>
         <li>Check "Automatically Restart"</li>
     </ul>
-    <h3>Part 2</h3>
-    <p>From NotMyFault</p>
+    <h3>From NotMyFault</h3>
     <ul>
         <li>Go to folder where NotMyFault is downloaded > x64 > NotMyFault</li>
         <li>Select Crash</li>
