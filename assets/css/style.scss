@@ -30,4 +30,15 @@ section {
     h1, h2, h3 {
         margin-top: 25px;
     }
+
+    /* Set border for tutorial steps */
+    .steps {
+        padding: 8px 15px;
+        background: #d0d0d0;
+        border-radius: 2px;
+        border: 1px solid #ffcc00;
+        box-shadow: inset 0 1px 3px rgb(0 0 0 / 30%);
+        overflow: auto;
+        overflow-y: hidden;
+    }
 }
