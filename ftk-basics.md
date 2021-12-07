@@ -24,13 +24,15 @@
         <li>Processes to Perform</li>
         <ul><li>These options will need to change depending on your objectives. Unselect options you’re not using to shorten processing time.</li></ul>
         <li>Refine Case & Index Defaults</li>
-        <ul><li>You can add these options on later as needed, which shortens initial processing time.</ul></li>
+        <ul><li>You can add these options on later as needed, which shortens initial processing time.</li></ul>
         <li>Add Evidence</li>
         <li>Select Next</li>
         <li>Select Finish</li>
     </ul>
     <b>Additional Resources</b>
-    <ul><li><a href="https://vimeo.com/384252876" target="_blank">Simplified process of loading forensics image</a></li></ul>
+    <ul>
+        <li><a href="https://vimeo.com/384252876" target="_blank">Simplified process of loading forensics image</a></li>
+    </ul>
 </div>
 
 <div class="intro">
@@ -63,13 +65,16 @@
 <div class="intro">
     <h4>Performing Basic Text Searches</h4>
 </div>
+
 <div class="steps">
     <h3>Build a Word Index</h3>
     <ul>
         <li>Select File > Add Evidence</li>
         <li>Select “Full Text Index” checkbox</li>
-            <ul><li>This option takes some time to process. It builds an index with every word that is in the image.</li>
-            <li>Allows you to perform text searches using the search field.</li></ul>
+            <ul>
+                <li>This option takes some time to process. It builds an index with every word that is in the image.</li>
+                <li>Allows you to perform text searches using the search field.</li>
+            </ul>
     </ul>
     <h3>Build a word index after an image has been processed</h3>
     <p>Tools > Analysis Tools > Full Text Indexing</p>
