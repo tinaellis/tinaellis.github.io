@@ -33,14 +33,7 @@
     <ul>
         <li>Open AccessData FTK Imager (You can run FTK Imager from a thumb drive (or a CD) to create a disk image or to image certain folders of a live system.)</li>
         <li>Create Disk Image</li>
-        <li>Select Source</li>
-            <ul>
-                <li>Physical Drive: <em>physical hard drives</em></li>
-                <li>Logical Drive: <em>logical (partitions)</em></li>
-                <li>Image File</li>
-                <li>Contents of Folder</li>
-                <li>Fernico Device: <em>CDs/DVDs</em></li>
-            </ul>
+        <li>Select Source <em>see notes below</em></li>
         <li>Select Finish</li>
         <li>Image Destination > Select Add..</li>
         <li>Select Raw (dd) <em>see notes below</em></li>
@@ -50,6 +43,14 @@
         <li>Select Finish</li>
     </ul>
     <p>When FTK Imager finishes, a summary screen will appear that includes the hash digest information. After your analysis is completed, you can create a second hash digest to determine if the drive or file was changed during your forensics investigation.</p>
+    <b>Image Source Options</b>
+    <ul>
+        <li>Physical Drive: <em>physical hard drives</em></li>
+        <li>Logical Drive: <em>logical (partitions)</em></li>
+        <li>Image File</li>
+        <li>Contents of Folder</li>
+        <li>Fernico Device: <em>CDs/DVDs</em></li>
+    </ul>
     <b>Image Type Explanation</b>
     <ul>
         <li>Raw (dd): Image format most commonly used by modern analysis tools. Raw file is not compressed / format keeps data integrity.</li>
