@@ -27,17 +27,36 @@
 
 <div class="steps">
     <b>Source Evidence Type:</b>
-    <p>Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
+    <p>Hard drives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
     <h3>Steps for Creating a Forensics Image:</h3>
     <b>From FTK Imager:</b>
     <ul>
         <li>Open AccessData FTK Imager (You can run FTK Imager from a thumb drive (or a CD) to create a disk image or to image certain folders of a live system.)</li>
         <li>Create Disk Image</li>
-        <li>Select Source (thumb drive = logical)</li>
-        <li>Input case information</li>
-        <li>Select save destination</li>
+        <li>Select Source</li>
+            <ul>
+                <li>Physical Drive: <em>physical hard drives</em></li>
+                <li>Logical Drive: <em>logical (partitions)</em></li>
+                <li>Image File</li>
+                <li>Contents of Folder</li>
+                <li>Fernico Device: <em>CDs/DVDs</em></li>
+            </ul>
+        <li>Select Finish</li>
+        <li>Image Destination > Select Add..</li>
+        <li>Select Raw (dd) <em>see notes below</em></li>
+        <li>Input Case Information</li>
+        <li>Select the Save Destination Folder</li>
+        <li>Input Filename</li>
+        <li>Select Finish</li>
     </ul>
     <p>When FTK Imager finishes, a summary screen will appear that includes the hash digest information. After your analysis is completed, you can create a second hash digest to determine if the drive or file was changed during your forensics investigation.</p>
+    <b>Image Type Explanation</b>
+    <ul>
+        <li>Raw (dd): Image format most commonly used by modern analysis tools. Raw file is not compressed / format keeps data integrity.</li>
+        <li>SMART: This format is designed for Linux file systems. Keeps disk image as pure bitstreams with optional compression.</li>
+        <li>E01: This format is proprietary to EnCase. Compresses the image. Adds header with case information.</li>
+        <li>AFF: Format doesn't lock user into proprietary format which might prevent analysis.</li>
+    </ul>
 </div>
 
 <div class="intro">
