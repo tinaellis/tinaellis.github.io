@@ -28,7 +28,7 @@
 <div class="steps">
     <b>Source Evidence Type:</b>
     <p>Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
-    <h3>Creating a Forensics Image:</h3>
+    <h3>Steps for Creating a Forensics Image:</h3>
     <b>From FTK Imager:</b>
     <ul>
         <li>Open AccessData FTK Imager (You can run FTK Imager from a thumb drive (or a CD) to create a disk image or to image certain folders of a live system.)</li>
@@ -47,19 +47,20 @@
 <div class="steps">
     <b>Source Evidence Type:</b>
     <p>Encrypted technologies such as Bitlocker drives. Can also be used with Hardrives, Partitioned Drives (C: D: E:), Removable Storage, Folders, Files, CDs, and DVDs.</p>
-    <p>NotMyFault is a tool that can be downloaded directly from Microsoft. To create a memory dump from NotMyFault, you will need to tailor these instructions according to the Windows OS version you have installed. Here are the instructions for creating a Windows 7 memory dump.</p>
     <p><a href="https://docs.microsoft.com/en-us/sysinternals/downloads/notmyfault" target="_blank">Download NotMyFault from Microsoft</a></p>
-    <h3>From System Settings</h3>
+    <h3>Steps for Creating a Forensics Image:</h3>
+    <b>From System Settings</b>
     <p>Configure where your system failure files are saved:</p>
     <ul>
         <li>System Settings > Advanced > Startup and Recovery > Settings</li>
         <li>Under System Failure, select "Complete Memory Dump" or Kernel</li>
         <li>Check "Automatically Restart"</li>
     </ul>
-    <h3>From NotMyFault</h3>
+    <b>From NotMyFault</b>
     <ul>
         <li>Go to folder where NotMyFault is downloaded > x64 > NotMyFault</li>
         <li>Select Crash</li>
     </ul>
     <p>This will crash your system and restart your computer. An image will be created and saved in the Settings file specified above. This method is useful when performing digital forensics on encrypted Bitlocker drives. To decrypt a Bitlocker drive, open the image file with a software tool such as Elcomsoft Forensic Disk Decryptor.</p>
+    <p><em>NotMyFault is a tool that can be downloaded directly from Microsoft. To create a memory dump from NotMyFault, you will need to tailor these instructions according to the Windows OS version you have installed. Here are the instructions for creating a Windows 7 memory dump.</em></p>
 </div>
