@@ -4,4 +4,5 @@ The goal of digital forensics is to extract information from electronic evidence
 I will not be diving into the processes, rules, and laws within digital forensics, instead, I will be focusing on some of the methods used in forensics to extract data from devices.
 
 <a href="creating-images">Creating Forensic Images</a>
+
 <a href="ftk-basics">Forensic Toolkit Basics</a>

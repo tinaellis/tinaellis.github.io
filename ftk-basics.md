@@ -3,8 +3,8 @@
 <h3>A Note On FTK Tools</h3>
 <p>AccessData.com provides a suite of forensics tools.</p>
 <ul>
-    <li>Forensic Toolkit (FTK): Referred to as "FTK". This program provides robust forensics analysis options, including disk imaging, file decryption, password cracking, registry file parsing, data carving, reporting, and more. This toolkit has a 5000 file limit on the demo version.</li>
-    <li>AccessData FTK Imager: This program is the go-to for creating disk images, features include hash reporting, image mounting, APFS image captures, and more. Especially useful to view and export a smaller subset of folders or files from the evidence tree of an image.</li>
+    <li><b>Forensic Toolkit (FTK):</b> Referred to as "FTK". This program provides robust forensics analysis options, including disk imaging, file decryption, password cracking, registry file parsing, data carving, reporting, and more. This toolkit has a 5000 file limit on the demo version.</li>
+    <li><b>AccessData FTK Imager:</b> This program is the go-to for creating disk images, features include hash reporting, image mounting, APFS image captures, and more. Especially useful to view and export a smaller subset of folders or files from the evidence tree of an image.</li>
 </ul>
 
 <div class="intro">
@@ -12,7 +12,7 @@
 </div>
 
 <div class="steps">
-    <h3>FTK</h3>
+    <h3>Forensic Toolkit FTK</h3>
     <ul>
         <li>Open Forensic Toolkit FTK</li>
         <li>Select “No” to run in Demo Mode</li>
@@ -76,8 +76,10 @@
                 <li>Allows you to perform text searches using the search field.</li>
             </ul>
     </ul>
-    <h3>Build a word index after an image has been processed</h3>
-    <p>Tools > Analysis Tools > Full Text Indexing</p>
+    <p>Build a word index after an image has been processed</p>
+    <ul>
+        <li>Tools > Analysis Tools > Full Text Indexing</li>
+    </ul>
     <h3>Indexed Search</h3>
     <ul>
         <li>Select the Search Tab</li>
@@ -87,13 +89,15 @@
         <li>Add additional search terms to perform a Compound search</li>
     </ul>
     <b>Additional Resources</b>
-    <p><a href="https://vimeo.com/412881969" target="_blank">Expand or narrow searches with stemming (adding ed / ing onto a word)</a></p>
-    <p><a href="https://vimeo.com/411790844" target="_blank">Phonics - find words like “raise, race, raze, rays”</a></p>
-    <p><a href="https://vimeo.com/411835899" target="_blank">Fuzzy option - spelling errors</a></p>
-    <p><a href="https://vimeo.com/411862846" target="_blank">Set date limits</a></p>
-    <p><a href="https://vimeo.com/410862313" target="_blank">Size and Filename Patterns</a></p>
-    <p><a href="https://vimeo.com/410869512" target="_blank">Using Wildcards in Search String</a></p>
-    <p><a href="https://vimeo.com/410871908" target="_blank">Export List of Words</a></p>
+    <ul>
+        <li><a href="https://vimeo.com/412881969" target="_blank">Expand or narrow searches with stemming (adding ed / ing onto a word)</a></li>
+        <li><a href="https://vimeo.com/411790844" target="_blank">Phonics - find words like “raise, race, raze, rays”</a></li>
+        <li><a href="https://vimeo.com/411835899" target="_blank">Fuzzy option - spelling errors</a></li>
+        <li><a href="https://vimeo.com/411862846" target="_blank">Set date limits</a></li>
+        <li><a href="https://vimeo.com/410862313" target="_blank">Size and Filename Patterns</a></li>
+        <li><a href="https://vimeo.com/410869512" target="_blank">Using Wildcards in Search String</a></li>
+        <li><a href="https://vimeo.com/410871908" target="_blank">Export List of Words</a></li>
+    </ul>
     <h3>Regular Expressions</h3>
     <ul>
         <li>Select Search</li>
@@ -103,7 +107,9 @@
         <li>A list of prebuilt Regular Expressions appears</li>
     </ul>
     <b>Additional Resources</b>
-    <p><a href="https://vimeo.com/542205908" target="_blank">Regular Expressions</a></p>
-    <p><a href="https://vimeo.com/407677760" target="_blank">Building Regular Expressions</a></p>
-    <p><a href="https://vimeo.com/410290934" target="_blank">Download / Install Regular Expressions</a></p>
+    <ul>
+        <li><a href="https://vimeo.com/542205908" target="_blank">Regular Expressions</a></li>
+        <li><a href="https://vimeo.com/407677760" target="_blank">Building Regular Expressions</a></li>
+        <li><a href="https://vimeo.com/410290934" target="_blank">Download / Install Regular Expressions</a></li>
+    </ul>
 </div>
