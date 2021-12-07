@@ -44,8 +44,8 @@ section {
         h1, h2, h3 {
             color: #000000;
         }
-        ul li::before {
-            color: #ffcc00;
+        ul {
+            list-style-image: url(assets/images/steps-bullet.png);
         }
     }
 
