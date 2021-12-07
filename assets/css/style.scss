@@ -31,7 +31,14 @@ section {
         margin-top: 25px;
     }
 
-    /* Set border for tutorial steps */
+    /* Set tutorial intro heading */
+    .intro {
+        h4 {
+            color: #75b5aa;
+        }
+    }
+
+    /* Set border and style for tutorial steps */
     .steps {
         padding: 8px 15px;
         background: #d0d0d0;

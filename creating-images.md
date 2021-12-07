@@ -3,20 +3,19 @@
 
 <h2>Memory Forensics</h2>
 <p>Memory forensics is the process of capturing the running memory of< a device then analyzing the memory for evidence. Memory forensics is valuable during incident response when evidence of malicious code can still be found in the computer RAM. Memory dumps provide a snapshot of the memory which can be used to identify the running processes that were occurring when the capture was taken.</p>
+<div class="intro">
+    <h4>Capture a Memory Dump</h4>
+<div>
 <div class="steps">
-    <h1>H1 Test</h1>
-    <h2>H2 Test</h2>
-    <h3>H3 Test</h3>
     <b>Source Evidence Type:</b>
     <p>Volatile Memory, anything stored in RAM.</p>
-    <h3>Capturing a Memory Dump:</h3>
+    <h3>AccessData FTK Imager</h3>
     <ul>
-        <li>1. Open AccessData FTK Imager</li>
-        <li>2. File > Capture Memory</li>
-        <li>3. Select the location where you want to save the output</li>
-        <li>4. Select 'Capture Memory'</li>
+        <li>Open AccessData FTK Imager</li>
+        <li>File > Capture Memory</li>
+        <li>Select the location where you want to save the output</li>
+        <li>Select 'Capture Memory'</li>
     </ul>
-
 </div>
 
 <h2>Storage Forensics</h2>
