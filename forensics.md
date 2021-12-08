@@ -10,4 +10,6 @@ I will not be diving into the processes, rules, and laws within digital forensic
 <a href="registry">Windows Registry</a>
 
 **Additional Resources**
-<a href="https://forensicswiki.xyz/page/Main_Page" target="_blank">Forensics Wiki</a>
+<ul>
+    <li><a href="https://forensicswiki.xyz/page/Main_Page" target="_blank">Forensics Wiki</a></li>
+</ul>

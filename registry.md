@@ -10,7 +10,13 @@
 <h2>Registry Structure and Hives</h2>
 <p>The Windows Registry is made up of two basic elements called the Registry Key which is a container object or simply put they are like a folder that has various types of files stored in them and Registry Values which are non-container objects that are like files that could be of any format.</p>
 <p>Using Registry Editor, we can see the 5 main Hives - “HKEY” is short for Hive Key.</p>
-![Registry Editor](/assets/images/forensics-registry-hives.png)
+<ul>
+    <li>HKEY_CLASSES_ROOT</li>
+    <li>HKEY_CURRENT_USER</li>
+    <li>HKEY_LOCAL_MACHINE</li>
+    <li>HKEY_USERS</li>
+    <li>HKEY_CURRENT_CONFIG</li>
+</ul>
 
 <div class="intro">
     <h2>HKEY_CLASSES_ROOT Hive</h2>
@@ -26,7 +32,6 @@
 <div class="steps">
     <h3>HKEY_CURRENT_USER</h3>
     <p>Abbreviated HKCU, the HKEY_CURRENT_USER stores settings that are specific to the currently logged-in user. The type of information that is stored is the same information that is found in HKEY_USERS, but specific to the currently logged-in user. The HKCU key is a link to the subkey of HKEY_USERS that corresponds to the user; the same information is accessible in both locations.</p>
-    ![Registry Editor](/assets/images/registry-current-user.png)
     <b>Additional Resources</b>
     <ul>
         <li><b>Supported Files: </b>Ntuser.dat, Ntuser.dat.log</li>
