@@ -28,7 +28,7 @@
     <p>From Case Summary > Registry Report</p>
     <h4>SAM - Users Report</h4>
     <p>This report includes a list of users and their SID’s. SIDs of 500 are typically for administrators, 501 is for guests. SIDs that start in the 1000s are usually where the user IDs are.</p>
-    <img src="/assets/images/1SAM.png" alt="SAM report">
+    <img src="/images/1SAM.png" alt="SAM report">
     <h4>Summary Report Software - OS Version</h4>
     <p>This report provides us with information on the OS (or software selected). It includes information such as what company licensed the software, when it was installed, and current version.</p>
     <h4>Summary Report: System - Time Zone Settings</h4>
