@@ -36,7 +36,7 @@
 </div>
 
 <div class="intro">
-    <h4>FTK Dashboard</h4>
+    <h4>Using FTK</h4>
 </div>
 
 <div class="steps">
