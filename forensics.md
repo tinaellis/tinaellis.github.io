@@ -6,3 +6,8 @@ I will not be diving into the processes, rules, and laws within digital forensic
 <a href="creating-images">Creating Forensic Images</a>
 
 <a href="ftk-basics">Forensic Toolkit Basics</a>
+
+<a href="registry">Windows Registry</a>
+
+**Additional Resources**
+<a href="https://forensicswiki.xyz/page/Main_Page" target="_blank">Forensics Wiki</a>
