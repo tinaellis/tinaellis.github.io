@@ -49,8 +49,11 @@ section {
         overflow-y: hidden;
         color: #000000;
         margin-bottom: 15px;
-        h1, h2, h3, h4, h5, h6 {
+        h1, h2, h3 {
             color: #000000;
+        }
+        h4, h5, h6 {
+            color: #ac4142;
         }
         ul {
             list-style-image: url(../images/steps-bullet.png);
