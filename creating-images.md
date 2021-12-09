@@ -5,7 +5,7 @@
 <p>Memory forensics is the process of capturing the running memory of< a device then analyzing the memory for evidence. Memory forensics is valuable during incident response when evidence of malicious code can still be found in the computer RAM. Memory dumps provide a snapshot of the memory which can be used to identify the running processes that were occurring when the capture was taken.</p>
 <div class="intro">
     <h4>Capture a Memory Dump</h4>
-<div>
+</div>
 <div class="steps">
     <b>Source Evidence Type:</b>
     <p>Volatile Memory, anything stored in RAM.</p>
