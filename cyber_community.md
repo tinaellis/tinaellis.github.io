@@ -1,4 +1,4 @@
-<h2>Cyber Community & Resources</h2>
+<h2>Cybersecurity Community & Resources</h2>
 <p>Discovering the cybersecurity community has been one of my greatest joys. This community has been overwhelmingly welcoming, encouraging, and supportive. A quick question about networks on Twitter leads to a plethora of advice and knowledge sharing. People are encouraged to ask questions, learn and grow.</p>
 <p>As Social Engineer @AletheDenis puts it,</p>
 >"This is the island of misfit toys that I have been looking for."
@@ -19,15 +19,11 @@
 </ul>
 <h3>Citizen Lab</h3>
 <p>I'm including Citizen Lab within my community favorites because of their mission to defend free speech. Civil society groups are common targets of nation state actors. Citizen Lab investigates digital threats and helps journalists and human rights activists stay safe.</p>
-<ul>
-    <li><a href="https://citizenlab.ca/" target="_blank">Citizen Lab</a></li>
-</ul>
 <p>I recommend the article GFWatch. GFWatch is a research platform Citizen Lab created to learn more about how the Great Wall of China's (GWC) is using DNS censorship to filter information and its impacts on the global internet.</p>
-<ul>
-    <li><a href="https://citizenlab.ca/2021/11/gfwatch-a-longitudinal-measurement-platform-built-to-monitor-chinas-dns-censorship-at-scale/" target="_blank">GFWatch</a></li>
-</ul>
 <p>Darknet Diaries does an incredible interview with a researcher from Citizen Lab and discusses their investigation of the NSO Group's Pegasus spyware.</p>
 <ul>
+    <li><a href="https://citizenlab.ca/" target="_blank">Citizen Lab</a></li>
+    <li><a href="https://citizenlab.ca/2021/11/gfwatch-a-longitudinal-measurement-platform-built-to-monitor-chinas-dns-censorship-at-scale/" target="_blank">GFWatch</a></li>
     <li><a href="https://darknetdiaries.com/episode/100/" target="_blank">Darknet Diaries Ep 100</a></li>
 </ul>
 <h3>Brian Krebs</h3>
