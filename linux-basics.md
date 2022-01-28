@@ -11,7 +11,7 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 
 | Command  | Description  | Example  |
 
-| --------- | --------- | --------- |
+|  |  |  |
 
 | cd | Changes directory specified | cd directory1 |
 
@@ -20,3 +20,13 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 | cd ../.. | Changes two levels up | --------- |
 
 | cd / | Changes to root directory | --------- |
+
+## Tables
+ 
+| Column 1  | Column 2  | Column 3  |
+
+| --------- | --------- | --------- |
+
+| First row | First row | First row |
+
+| Second row| Second row| Second row|
