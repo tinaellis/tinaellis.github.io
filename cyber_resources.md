@@ -1,4 +1,4 @@
-<h2>Cyber Security Resources</h2>
+<h2>Cybersecurity Resources</h2>
 <h3>MITRE ATT&CK®</h3>
 <p>MITRE ATT&CK® stands for MITRE Adversarial Tactics, Techniques, and Common Knowledge (ATT&CK) - The MITRE Attack Framework is a collective knowledge base of cyber adversary behavior. It is a great resource for understanding the tactics and techniques a threat actor might take to launch an attack. It is used for intrusion detection, threat hunting, security engineering, threat intelligence, red teaming, and risk management.</p>
 <ul>
