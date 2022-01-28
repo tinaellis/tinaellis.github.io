@@ -8,7 +8,9 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 ```
 
 ## Tables
-| Command  | Description  |
-| --------- | --------- |
-| cd | cd .. changes to the parent <br> ls -a displays all directory contents, including hidden content <br> ls -l displays extended information, including the owner, modification date, size, and permissions |
-| mkdir | Creates a new directory. Use -p option to create all directories within the specified path when that path does not already exist|
+| Command  | Description  | Example  |
+| --------- | --------- | --------- |
+| cd | Changes directory specified | cd directory1 |
+| cd .. | Changes one level up | --------- |
+| cd ../.. | Changes two levels up | --------- |
+| cd / | Changes to root directory | --------- |
