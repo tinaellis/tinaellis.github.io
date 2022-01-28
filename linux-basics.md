@@ -8,6 +8,7 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 ```
 
 ## Tables
+
 | Command  | Description  | Example  |
 
 | --------- | --------- | --------- |
