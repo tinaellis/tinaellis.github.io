@@ -9,8 +9,13 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 
 ## Tables
 | Command  | Description  | Example  |
+
 | --------- | --------- | --------- |
+
 | cd | Changes directory specified | cd directory1 |
+
 | cd .. | Changes one level up | --------- |
+
 | cd ../.. | Changes two levels up | --------- |
+
 | cd / | Changes to root directory | --------- |
