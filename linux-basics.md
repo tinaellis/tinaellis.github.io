@@ -11,7 +11,7 @@ mv = Moves or renames directories (and files). Moving directories removes the so
 
 | Command  | Description  | Example  |
 
-| :------- | :--------: | :------- |
+| :-- | :-: | :-- |
 
 | cd | Changes directory specified | cd directory1 |
 
