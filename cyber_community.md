@@ -1,4 +1,4 @@
-<h2>Cybersecurity Community & Resources</h2>
+<h2>Cybersecurity Community</h2>
 <p>Discovering the cybersecurity community has been one of the best parts of my journey. This community has been overwhelmingly welcoming, encouraging, and supportive. A quick question about networks on Twitter leads to a plethora of advice and knowledge sharing. People are encouraged to ask questions, learn and grow.</p>
 <p>As Social Engineer @AletheDenis puts it,</p>
 >"This is the island of misfit toys that I have been looking for."

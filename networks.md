@@ -5,5 +5,5 @@ Rather than creating an extensive wiki, my goal for this section is to provide a
 
 **The rest of my notes have been consolidated on my Github page.**
 <ul>
-    <li><a href="https://github.com/tinaellis/Infosec-Network-Notes/tree/main/CCNA" target="_blank">CCNA - Networking Fundamentals Study Notes</a></li>
+    <li><a href="https://github.com/tinaellis/cybersecurity-notes/tree/main/CCNA" target="_blank">CCNA - Networking Fundamentals Study Notes</a></li>
 </ul>
