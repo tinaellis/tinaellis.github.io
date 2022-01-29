@@ -5,7 +5,7 @@
 ```python
 pwd # Displays the current working directory
 cp # copies directories
-mv # Moves or renames directories (and files). Moving directories removes the source directory and places it in the destination
+mv # Moves or renames directories and files (removes the source directory)
 
 cd # Changes directory specified
 cd ../.. # Changes two levels up
@@ -13,10 +13,10 @@ cd / # Changes to root directory
 
 ls # Displays the contents of a directory. Options include:
     -a # displays all directory contents, including hidden content
-    -l # displays extended information, including the owner, modified date, size, and permissions
-    -al # displays a long listing of all the contents in the current working directory, including hidden content
-    -R # displays the contents of a directory and all of its subdirectories.
-    -R # /etc displays the contents of the /etc directory and all of its subdirectories
+    -l # displays extended information, owner, modified date, size, and permissions
+    -al # displays listing of all contents, including hidden content
+    -R # displays the contents of a directory and subdirectories.
+    -R /etc # displays contents of /etc directory and subdirectories
     -d # displays directories but not files
     -r # reverses the sort order
 ```
@@ -24,7 +24,7 @@ ls # Displays the contents of a directory. Options include:
 ### Create, Copy, Move Directories
 ```python
 mkdir # Creates a new directory
-    -p # Use the -p option to create all directories within the specified path when that path does not already exist
+    -p # create all directories within the specified path when that path does not already exist
 mkdir /home/Fred/work_files # creates a directory named work_files within the specified path
 cp # Copies directories & leaves the source contents intact
     -r or -R # options to recursively copy subdirectories and files within the directory
@@ -40,7 +40,7 @@ mv # Moves or renames directories (and files). Moving directories removes the so
 ### Remove Directories
 ```python
 rmdir # Deletes an empty directory
-rm # Removes the directory and file information from the file system, which makes the directories and files inaccessible
+rm # Removes the directory and file information from the file system
     -i # prompts before removing
     -r # removes directories, subdirectories, and files within them
     -f # eliminates prompt for read-only files and avoids an exit code error if a file doesn't exist
@@ -50,11 +50,11 @@ rm # Removes the directory and file information from the file system, which make
 
 ### Files
 ```python
-touch # If the file does not exist, touch creates a blank version of the file. If the file does exist, this command updates the file's modification and last accessed times
-cp # Copies files. Copying leaves the source file intact
+touch # If the file does not exist, creates a blank version of the file. If the file does exist, updates the file's modification and last accessed times
+cp # Copies files - leaves the source file intact
     -f # overwrites files that already exist in the destination directory
     -i # prompts before overwriting a file in the destination directory
-mv # Moves or renames files (and directories). Moving files erases the source file and moves it to the destination
+mv # Moves or renames files (and directories). Moving files erases the source file
     -f # overwrites files that already exist in the destination directory
     -i # prompts before overwriting a file in the destination directory
     -n # never overwrites files in the destination directory
@@ -64,7 +64,7 @@ rm # Removes a file or directory
 ```
 
 ### Working with Vi
-```
+```python
 vi # Starts vi. Type the command at the shell prompt
 vi [filename] # Starts vi and immediately begins working on the named file
 Insert key # Enters insert mode from command mode
@@ -79,6 +79,5 @@ w [filename] # names and saves the file
 w! [filename] # overwrites the file
 q # Exits vi. This produces an error if the text was modified
 q! # Exits vi without saving
-wq # Saves the document and exits vi
-exit # Saves the document and exits vi.
+wq # Saves the document and exits vi (exit also works)
 ```
