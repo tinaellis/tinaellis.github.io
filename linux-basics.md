@@ -90,5 +90,7 @@ ZZ # Saves the file and quits
 ```
 
 Starting the Editor = vi filename or vi (starts in command mode)
+
 Insert Mode = press i to enter insert mode (esc to exit)
+
 Saving and Quit = ZZ save file and quit
