@@ -6,6 +6,9 @@ docs:
 - title: Python
   url: python
 
+- title: Linux
+  url: linux
+
 - title: Forensics
   url: forensics
 
