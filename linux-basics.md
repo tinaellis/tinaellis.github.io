@@ -63,7 +63,13 @@ rm # Removes a file or directory
     -f # option to delete with a prompt
 ```
 
-### Working with Vi
+### Working with Vi - Basics
+The vi editor has two modes: Command and Insert. 
+
+When you first open a file with vi, you are in Command mode. Command mode means that you can use keyboard keys to navigate, delete, copy, paste, and do a number of other tasks—except entering text.
+
+Press i: To enter Insert mode, press i. In Insert mode, you can enter text, use the Enter key to go to a new line, use the arrow keys to navigate text, and use vi as a free-form text editor.
+
 ```python
 vi # Starts vi. Type the command at the shell prompt
 vi [filename] # Starts vi and immediately begins working on the named file
@@ -80,4 +86,9 @@ w! [filename] # overwrites the file
 q # Exits vi. This produces an error if the text was modified
 q! # Exits vi without saving
 wq # Saves the document and exits vi (exit also works)
+ZZ # Saves the file and quits
 ```
+
+Starting the Editor = vi filename or vi (starts in command mode)
+Insert Mode = press i to enter insert mode (esc to exit)
+Saving and Quit = ZZ save file and quit
