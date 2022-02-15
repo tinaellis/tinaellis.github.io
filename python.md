@@ -24,3 +24,6 @@ The following link to Trinket.io website.
 <a href="python-classes">Python Classes</a>
 
 <a href="inheritance">Inheritance and Composition</a>
+
+### Python Git-Repo
+<a href="https://github.com/tinaellis/python_fundamentals_2" target="_blank">Python Git Repository</a>
