@@ -1,7 +1,9 @@
 <h2>OSI Model</h2>
 <a href="networks">Back</a>
+
 <h2>Functions and Protocols at a Glance</h2>
 <img src="/assets/images/table3.PNG" alt="Table 3 OSI Protocol Stack">
+
 <div class="intro">
     <h3>Application (L7)</h3>
 </div>
@@ -14,7 +16,7 @@
         <li>Provides standardized network services</li>
     </ul>
     <h4>L7 PROTOCOLS</h4>
-    <p>Protocol Function: The protocols at the application layer handle file transfer, virtual terminals, network management, and fulfilling networking requests of applications.
+    <p>Protocol Function: The protocols at the application layer handle file transfer, virtual terminals, network management, and fulfilling networking requests of applications.</p>
     <ul>
         <li>File Transfer Protocol (FTP)</li>
         <li>Network Time Protocol (NTP)</li>
