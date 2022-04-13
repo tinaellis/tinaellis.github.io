@@ -5,6 +5,7 @@
 <div class="intro">
     <h3>Application (L7)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Data</p>
     <p>Layer 7: works closest to the user and provides file transmissions, message exchanges, terminal sessions, and much more. This layer does not include the actual applications, but rather the protocols that support the applications.</p>
@@ -21,11 +22,14 @@
         <li>Internet Message Access Protocol (IMAP)</li>
         <li>Hypertext Transfer Protocol (HTTP)</li>
         <li>Dynamic Host Configuration Protocol (DHCP)</li>
-        <ul><li>UDP-based Protocol</li>
-            <li>DHCP manipulates L2 based on responses arriving through L7</li></ul>
+        <ul>
+            <li>UDP-based Protocol</li>
+            <li>DHCP manipulates L2 based on responses arriving through L7</li>
+        </ul>
         <li>Domain Name System (DNS) - DNS is an application layer protocol, because DNS query and answer is the application level communications.</li>
     </ul>
 </div>
+
 <div class="intro">
     <h3>Presentation (L6)</h3>
 </div>
@@ -48,9 +52,11 @@
         <li>Musical Instrument Digital Interface (MIDI)</li>
     <ul>
 </div>
+
 <div class="intro">
     <h3>Session (L5)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Data</p>
     <p>Layer 5: is responsible for establishing a connection between the two applications, maintaining it during the transfer of data, and controlling the release of this connection. When the conversation is over, this path is broken down and all parameters are set back to their original settings. This process is known as dialog management (dialog control).</p>
@@ -83,9 +89,11 @@
         <li>Transport layer protocols handle computer-to-computer communication.</li>
     </ul>
 </div>
+
 <div class="intro">
     <h3>Transport (L4)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Segment</p>
     <p>Layer 4: When two computers are going to communicate through a connection-oriented protocol, they first agree on how much information each computer will send at a time, how to verify the integrity of the data once received, and how to determine whether a packet was lost along the way. The two computers agree on these parameters through a handshaking process at the transport layer.</p>
@@ -103,9 +111,11 @@
         <li>QUIC (not an acronym)</li>
     </ul>
 </div>
+
 <div class="intro">
     <h3>Network (L3)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Packet</p>
     <p>Layer 3: The main responsibilities of layer 3, are to insert information into the packet’s header so it can be properly addressed and routed, and then to actually route the packet to its proper destination. In a network, many routes can lead to one destination. The protocols at the network layer must determine the best path for the packet to take. Routing protocols build and maintain their routing tables.</p>
@@ -122,9 +132,11 @@
         <li>Open Shortest Path First (OSPF)</li>
     </ul>
 </div>
+
 <div class="intro">
     <h3>Data Link (L2)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Frame</p>
     <p>Layer 2: Different networking technologies can use different protocols, network interface cards (NICs), cables, and transmission methods. Each of these components has a different header data format structure, and they interpret electromagnetic signals in different ways. The data link layer is where the network stack knows in what format the data frame must be in order to transmit it properly over Ethernet, wireless, or frame relay links.</p>
@@ -156,9 +168,11 @@
     <p>NICs bridge the data link and physical layers. Data is passed down through the first six layers and reaches the NIC at the data link layer. Depending on the network technology being used, the NIC encodes the bits at the data link layer, which are then turned into electricity states at the physical layer and placed onto the wire for transmission.</p>
     <p><b>Layer 2 Security Standards, include defending against:</b> Packet sniffing, modifying headers, and spoof traffic.</p>
 </div>
+
 <div class="intro">
     <h3>Physical (L1)</h3>
 </div>
+
 <div class="steps">
     <p>PDU: Bits</p>
     <p>Layer 1: converts bits into electromagnetic signals for transmission.</p>
