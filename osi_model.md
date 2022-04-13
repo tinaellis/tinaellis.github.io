@@ -52,7 +52,7 @@
         <li>Joint Photographic Experts Group (JPEG)</li>
         <li>Motion Picture Experts Group (MPEG)</li>
         <li>Musical Instrument Digital Interface (MIDI)</li>
-    <ul>
+    </ul>
 </div>
 
 <div class="intro">
