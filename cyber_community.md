@@ -2,7 +2,7 @@
 <p>Discovering the cybersecurity community has been one of the best parts of my journey. This community has been overwhelmingly welcoming, encouraging, and supportive. A quick question about networks on Twitter leads to a plethora of advice and knowledge sharing. People are encouraged to ask questions, learn and grow.</p>
 <p>As Social Engineer @AletheDenis puts it,</p>
 >"This is the island of misfit toys that I have been looking for."
-<a href="cyber_resouces">Resources</a>
+<p><a href="cyber_resouces">Resources</a></p>
 <h2>Community Favorites</h2>
 <h3>Jack Rhysider, Darknet Diaries</h3>
 <p>One of the best pieces of advice I received came from the professor of the first cybersecurity course I took in college. He advised us to find 3 cybersecurity related podcasts and dedicate 1 hour each week to listening to them. This was how I discovered Darknet Diaries - and at the risk of sounding cliche - my life was forever changed. I have learned more from these podcasts then I did my first year of college.</p>
