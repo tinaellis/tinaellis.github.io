@@ -62,6 +62,8 @@ rm # Removes a file or directory
 # Note: The rm command deletes a file or directory's inode, but it does not actually delete its data. To permanently remove data, use the shred command.
     -f # option to delete with a prompt
 ```
+### File Permissions
+<img src="/assets/images/permissions.jpg" alt="Linux File Permissions">
 
 ### Working with Vi - Basics
 The vi editor has two modes: Command and Insert. 
