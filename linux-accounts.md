@@ -41,3 +41,9 @@ Test Table
 | out of stock | good and plenty   | nice  |
 | ok           | good `oreos`      | hmm   |
 | ok           | good `zoute` drop | yumm  |
+
+### User and Group IDs
+| Command        | Description          |
+|:-------------|:------------------|
+| useradd -u 1500 username           | u option specifies a unique user ID (instead of default) |
+| useradd -g 1501 username   | g option specifies a unique group ID (instead of default)  |
