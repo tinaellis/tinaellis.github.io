@@ -32,3 +32,12 @@ passwd deleteme # Deletes the password and allows you to create a new one
 | :---        |    ----:   |
 | useradd -u 1500 username     | u option specifies a unique user ID (instead of default)      |
 | useradd -g 1501 username   | g option specifies a unique group ID (instead of default)       |
+
+Test Table
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
