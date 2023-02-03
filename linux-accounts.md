@@ -20,7 +20,7 @@
 ### Adding and Removing
 Account settings and details are stored in some of the following directories and files.
 
-```
+```linux
 useradd accountname # Create user. Makes a home directory and gives it default shell
 userdel accountname # Delete user. Doesn’t fully remove everything, use -r arguments
 userdel -r accountname # Deletes the user and associated mailbox/directory stuff
@@ -29,6 +29,6 @@ passwd deleteme # Deletes the password and allows you to create a new one
 
 ### User and Group IDs
 | Command      | Description |
-| :---        |    :----:   |
+| :---        |    ----:   |
 | useradd -u 1500 username     | u option specifies a unique user ID (instead of default)      |
 | useradd -g 1501 username   | g option specifies a unique group ID (instead of default)       |
