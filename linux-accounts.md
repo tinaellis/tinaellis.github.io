@@ -27,12 +27,6 @@ userdel -r accountname # Deletes the user and associated mailbox/directory stuff
 passwd deleteme # Deletes the password and allows you to create a new one
 ```
 
-### User and Group IDs
-| Command      | Description |
-| :---        |    ----:   |
-| useradd -u 1500 username     | u option specifies a unique user ID (instead of default)      |
-| useradd -g 1501 username   | g option specifies a unique group ID (instead of default)       |
-
 Test Table
 
 | head1        | head two          | three |
@@ -43,7 +37,7 @@ Test Table
 | ok           | good `zoute` drop | yumm  |
 
 ### User and Group IDs
-| Command        | Description          |
-|:-------------|:------------------|
-| useradd -u 1500 username           | u option specifies a unique user ID (instead of default) |
-| useradd -g 1501 username   | g option specifies a unique group ID (instead of default)  |
+| Command                    | Description                                               |
+|:---------------------------|:----------------------------------------------------------|
+| useradd -u 1500 username   | u option specifies a unique user ID (instead of default)  |
+| useradd -g 1501 username   | g option specifies a unique group ID (instead of default) |
