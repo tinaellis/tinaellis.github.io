@@ -3,7 +3,7 @@
 <p>As Social Engineer @AletheDenis puts it,</p>
 >"This is the island of misfit toys that I have been looking for."
 
-<a href="cyber_resouces">Resources</a>
+<a href="cyber_resources">Resources</a>
 
 <h2>Community Favorites</h2>
 <h3>Jack Rhysider, Darknet Diaries</h3>
