@@ -104,24 +104,20 @@ I have a proven ability to work effectively in a team and communicate with techn
 <div class="cv">
     <h4>Bachelor of Applied Science (BAS) in Cyber Security</h4>
     <ul>
-        <li>Columbia Basin College</li>
-        <li>Expected June 2023</li>
-        <li>Pasco, WA</li>
+        <li>Columbia Basin College, Pasco, WA</li>
+        <li>Expected June, 2023</li>
     </ul>
     <h4>Associate in Applied Science (AAS) in Cyber Security</h4>
     <ul>
-        <li>Columbia Basin College</li>
-        <li>Pasco, WA</li>
+        <li>Columbia Basin College, Pasco, WA</li>
         <li>2019 - 2022</li>
         <li>Graduated with High Honors</li>
         <li>GPA 3.97 / 4.0</li>
     </ul>
 </div>
 
-
-
-<h2>MENTIONABLES</h2>
 <div class="progress-bar">
+    <h2>MENTIONABLES</h2>
     <div class="skill">
         <p>NETWORK FUNDAMENTALS</p>
         <div class="skill-bar skill1 wow slideInLeft animated">
@@ -158,6 +154,12 @@ I have a proven ability to work effectively in a team and communicate with techn
             <span class="skill-count3">75%</span>
         </div>
     </div>
+    <div class="skill">
+        <p>SCRUM</p>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count3">75%</span>
+        </div>
+    </div>
 </div>
 
 <div class="progress-bar">
@@ -176,7 +178,7 @@ I have a proven ability to work effectively in a team and communicate with techn
 </div>
 
 <div class="cv">
-    <h3>STRENGTHS</h3>
+    <h4>STRENGTHS</h4>
     <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
     <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
 </div>
