@@ -1,5 +1,6 @@
 ## Time to Git-Init
 My goal for this blog is to document my journey as I find time. It will also serve as a guide for those one off things I want to keep on hand and quickly reference. Connect with me if you want to know more about my experience, and skills or are interested in discussing cyber security.
+
 <a href="cv">View my Curriculum Vitae</a>
 
 ### Projects
