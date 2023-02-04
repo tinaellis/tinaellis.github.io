@@ -16,31 +16,31 @@
         <li>/etc/gshadow - Location of (group) hashed passwords</li>
     </ul>
     <p><em>The useradd command modifies the passwd, shadow, group, and gshadow files</em></p>
-    <p>Every user will belong to a single primary group, which is listed in the passwd file. A user can also belong to multiple secondary groups</p>
+    <p>Every user will belong to a single primary group, which is listed in the passwd file. A user can also belong to multiple secondary groups.</p>
 </div>
 
-### Adding and Removing
+### Adding and Removing Accounts
 Adding and removing accounts with explanations and argument options.
 
-| Command                  | Description                                                    |
-|:-------------------------|:---------------------------------------------------------------|
-| useradd accountname      | Create user. Makes a home directory and gives it default shell |
-| userdel accountname      | Delete user. Doesn’t fully remove everything, use -r arguments |
-| userdel -r accountname   | Deletes the user and associated mailbox/directory stuff        |
-| passwd deleteme          | Deletes the password and allows you to create a new one        |
+| Command                       | Description                                                    |
+|:------------------------------|:---------------------------------------------------------------|
+| useradd accountname           | Create user. Makes a home directory and gives it default shell |
+| userdel accountname           | Delete user. Doesn’t fully remove everything, use -r arguments |
+| userdel -r accountname        | Deletes the user and associated mailbox/directory stuff        |
+| passwd deleteme               | Deletes the password and allows you to create a new one        |
 
-Unique IDs and Directories
+### Unique IDs and Directories
 
-| Command                     | Description                                                                         |
-|:----------------------------|:------------------------------------------------------------------------------------|
-| useradd -u 1500 username    | u option Specifies a unique user ID (instead of default)                            |
-| useradd -g 1501 username    | g option Specifies a unique group ID (instead of default)                           |
-| useradd -d /home/user8 u8   | d option Adds the user with a home directory of /user8 instead of the username “u8” |
-| useradd -M user9            | M option Doesn’t create a home directory                                            |
+| Command                       | Description                                                                         |
+|:------------------------------|:------------------------------------------------------------------------------------|
+| useradd -u 1500 username      | u option Specifies a unique user ID (instead of default)                            |
+| useradd -g 1501 username      | g option Specifies a unique group ID (instead of default)                           |
+| useradd -d /home/user8 u8     | d option Adds the user with a home directory of /user8 instead of the username “u8” |
+| useradd -M user9              | M option Doesn’t create a home directory                                            |
 
 <em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
 
-Shell
+### Shells
 The default shell specifies what program or process will be started when the user logs in.
 
 | Command                       | Description                                          |
@@ -49,8 +49,7 @@ The default shell specifies what program or process will be started when the use
 | useradd -D                    | D option Shows you what it can change                |
 | useradd -D -s /bin/tcsh       | D -s Changes the default shell for all new users     |
 
-
-Groups
+### Groups
 Groups make it easier to control permissions for multiple users.
 
 | Command                          | Description                                                |
@@ -62,8 +61,7 @@ Groups make it easier to control permissions for multiple users.
 | usermod -a -G groupname username | Assign a secondary group to a user                         |
 | gpasswd -d username groupname    | Remove a user from a group                                 |
 
-
-Finger
+### Finger
 
 | Command                                                             | Description                                            |
 |:--------------------------------------------------------------------|:-------------------------------------------------------|
