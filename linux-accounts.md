@@ -19,15 +19,34 @@
     <p>Every user will belong to a single primary group, which is listed in the passwd file. A user can also belong to multiple secondary groups.</p>
 </div>
 
-### Adding and Removing Accounts
-Adding and removing accounts with explanations and argument options.
-
-| Command                       | Description                                                    |
-|:------------------------------|:---------------------------------------------------------------|
-| useradd accountname           | Create user. Makes a home directory and gives it default shell |
-| userdel accountname           | Delete user. Doesn’t fully remove everything, use -r arguments |
-| userdel -r accountname        | Deletes the user and associated mailbox/directory stuff        |
-| passwd deleteme               | Deletes the password and allows you to create a new one        |
+<div class="intro">
+    <h3>Adding and Removing Accounts</h3>
+</div>
+<div class="steps">
+    <p>Adding and removing accounts with explanations and argument options.</p>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>useradd accountname</td>
+            <td>Create user. Makes a home directory and gives it default shell</td>
+        </tr>
+        <tr>
+            <td>userdel accountname</td>
+            <td>Delete user. Doesn’t fully remove everything, use -r arguments</td>
+        </tr>
+        <tr>
+            <td>userdel -r accountname</td>
+            <td>Deletes the user and associated mailbox/directory stuff</td>
+        </tr>
+        <tr>
+            <td>passwd deleteme</td>
+            <td>Deletes the password and allows you to create a new one</td>
+        </tr>
+    </table>
+</div>
 
 <div class="intro">
     <h3>Unique IDs and Directories</h3>
@@ -58,43 +77,119 @@ Adding and removing accounts with explanations and argument options.
     <em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
 </div>
 
-### Unique IDs and Directories
+<div class="intro">
+    <h3>Unique IDs and Directories</h3>
+</div>
+<div class="steps">
+    <p>Adding and removing accounts with explanations and argument options.</p>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>useradd -u 1500 username</td>
+            <td>u option Specifies a unique user ID (instead of default)</td>
+        </tr>
+        <tr>
+            <td>useradd -g 1501 username</td>
+            <td>g option Specifies a unique group ID (instead of default)</td>
+        </tr>
+        <tr>
+            <td>useradd -d /home/user8 u8</td>
+            <td>d option Adds the user with a home directory of /user8 instead of the username “u8”</td>
+        </tr>
+        <tr>
+            <td>useradd -M user9</td>
+            <td>M option Doesn’t create a home directory</td>
+        </tr>
+    </table>
+    <em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
+</div>
 
-| Command                       | Description                                                                         |
-|:------------------------------|:------------------------------------------------------------------------------------|
-| useradd -u 1500 username      | u option Specifies a unique user ID (instead of default)                            |
-| useradd -g 1501 username      | g option Specifies a unique group ID (instead of default)                           |
-| useradd -d /home/user8 u8     | d option Adds the user with a home directory of /user8 instead of the username “u8” |
-| useradd -M user9              | M option Doesn’t create a home directory                                            |
+<div class="intro">
+    <h3>Shells</h3>
+</div>
+<div class="steps">
+    <p>The default shell specifies what program or process will be started when the user logs in.</p>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>useradd -s /bin/tcsh username</td>
+            <td>s option Sets the shell, here we specified tcsh</td>
+        </tr>
+        <tr>
+            <td>useradd -D</td>
+            <td>D option Shows you what it can change</td>
+        </tr>
+        <tr>
+            <td>useradd -D -s /bin/tcsh</td>
+            <td>D -s Changes the default shell for all new users</td>
+        </tr>
+    </table>
+</div>
 
-<em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
+<div class="intro">
+    <h3>Groups</h3>
+</div>
+<div class="steps">
+    <p>Groups make it easier to control permissions for multiple users.</p>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>id username</td>
+            <td>Display users UserID, GroupID, and what groups they are in</td>
+        </tr>
+        <tr>
+            <td>groups username</td>
+            <td>Display the group the user is in</td>
+        </tr>
+        <tr>
+            <td>groupadd groupname</td>
+            <td>Add a group</td>
+        </tr>
+        <tr>
+            <td>groupdel groupname</td>
+            <td>Remove a group</td>
+        </tr>
+        <tr>
+            <td>usermod -a -G groupname username</td>
+            <td>Assign a secondary group to a user</td>
+        </tr>
+        <tr>
+            <td>gpasswd -d username groupname</td>
+            <td>Remove a user from a group</td>
+        </tr>
+    </table>
+</div>
 
-
-### Shells
-The default shell specifies what program or process will be started when the user logs in.
-
-| Command                       | Description                                          |
-|:------------------------------|:-----------------------------------------------------|
-| useradd -s /bin/tcsh username | s option Sets the shell, here we specified tcsh      |
-| useradd -D                    | D option Shows you what it can change                |
-| useradd -D -s /bin/tcsh       | D -s Changes the default shell for all new users     |
-
-### Groups
-Groups make it easier to control permissions for multiple users.
-
-| Command                          | Description                                                |
-|:---------------------------------|:-----------------------------------------------------------|
-| id username                      | Display users UserID, GroupID, and what groups they are in |
-| groups username                  | Display the group the user is in                           |
-| groupadd groupname               | Add a group                                                |
-| groupdel groupname               | Remove a group                                             |
-| usermod -a -G groupname username | Assign a secondary group to a user                         |
-| gpasswd -d username groupname    | Remove a user from a group                                 |
-
-### Finger
-
-| Command                                                             | Description                                            |
-|:--------------------------------------------------------------------|:-------------------------------------------------------|
-| chfn username                                                       | As root you can change this for a user                 |
-| useradd -c “FirstName LastName” username                            | Don't use quotes if you only want to change first name |
-| useradd -c “Firstname Lastname,New York,444-4444,555-5555” username | Changing additional fields                             |
+<div class="intro">
+    <h3>Finger</h3>
+</div>
+<div class="steps">
+    <p>The default shell specifies what program or process will be started when the user logs in.</p>
+    <table>
+        <tr>
+            <th>Command</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>chfn username</td>
+            <td>As root you can change this for a user</td>
+        </tr>
+        <tr>
+            <td>useradd -c “FirstName LastName” username</td>
+            <td>Don't use quotes if you only want to change first name</td>
+        </tr>
+        <tr>
+            <td>useradd -c “Firstname Lastname,New York,444-4444,555-5555” username</td>
+            <td>Changing additional fields</td>
+        </tr>
+    </table>
+</div>
