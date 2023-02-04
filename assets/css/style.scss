@@ -1,6 +1,10 @@
 ---
 ---
 @import "jekyll-theme-midnight";
+/* Override background color */
+body {
+    background:#17191a;
+}
 
 /* Remove margins from header */
 section {
