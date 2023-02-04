@@ -133,13 +133,15 @@ I have a proven ability to work effectively in a team and communicate with techn
         </ul>
     </div>
 </div>
-    <div class="progress-bar">
+
+<div class="progress-bar">
     <h2>STRENGTHS</h2>
     <div class="cv">
         <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
         <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
     </div>
 </div>
+
 <p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
 <div class="progress-bar">
     <h2>MENTIONABLES</h2>
