@@ -148,8 +148,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     <h2>MENTIONABLES</h2>
     <div class="skill">
         <p>NETWORK FUNDAMENTALS</p>
-        <div class="skill-bar skill4 wow slideInLeft animated">
-            <span class="skill-count4">65%</span>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count3">65%</span>
         </div>
     </div>
     <div class="skill">
