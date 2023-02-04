@@ -1,9 +1,10 @@
 ## Curriculum Vitae
-I am an ambitious incident response intern with a background in project management, wrapping up my Bachelor of Applied Science in Cyber Security degree in June 2023. I have experience analyzing and triaging security alerts, incident response, and threat hunting. Skilled in utilizing various security tools such as SIEM, IDS/IPS, and endpoint protection. I have a passion for threat intelligence and in my free time, I enjoy learning about APTs and staying updated with the latest threat intelligence reports. I am also an active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events. Furthermore, I am a part of three different internship programs: Cyber Security Analyst Intern in the CSOC team at Pacific Northwest National Laboratory. An NCL / CrowdStrike joint mentorship program. And CySER, a Department of Defense internship program.
+I am an ambitious incident response intern with a background in project management, wrapping up my Bachelor of Applied Science in Cyber Security degree in June 2023. I have experience analyzing and triaging security alerts, incident response, and threat hunting. Skilled in utilizing various security tools such as SIEM, IDS/IPS, and endpoint protection.
 
 I have a proven ability to work effectively in a team and communicate with technical and non-technical stakeholders. I am a quick learner with a strong work ethic and the ability to adapt to new technologies. Seeking to leverage my skills, education, passion, and experience to contribute to the incident response and threat intelligence efforts of a dynamic organization.
 
 <h2>SKILLS</h2>
+<p>I have a passion for threat intelligence and in my free time, I enjoy learning about APTs and staying updated with the latest threat intelligence reports.</p>
 <div class="progress-bar">
     <div class="skill">
         <p>INCIDENT RESPONSE</p>
@@ -83,6 +84,7 @@ I have a proven ability to work effectively in a team and communicate with techn
 </div>
 
 <h2>EXPERIENCE</h2>
+<p>I am a part of three different internship programs: Cyber Security Analyst Intern in the CSOC team at Pacific Northwest National Laboratory. An NCL / CrowdStrike joint mentorship program. And CySER, a Department of Defense internship program.</p>
 <div class="cv">
     <h3><strong>Cyber Security Analyst Intern</strong></h3>
     <h4>Pacific Northwest National Laboratory (PNNL) | June, 2022 - Present</h4>
@@ -95,7 +97,7 @@ I have a proven ability to work effectively in a team and communicate with techn
     <h3><strong>CrowdStrike HBCU/MSI Mentoring Program</strong></h3>
     <h4>CrowdStrike | September, 2022 - Present</h4>
     <p>A mentorship program that pairs selected students who have participated in NCL Capture the Flag competitions with experienced CrowdStrike mentors. The mentors provide guidance, advice, and support to help students navigate the challenges of the field and achieve their career goals.</p>
-    <h3><strong>Cyber Security Intern</h3>
+    <h3><strong>Cyber Security Intern</strong></h3>
     <h4>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - Present</h4>
     <p>The Northwest Institute for Cybersecurity Education and Research (CySER) and DoD, provide cybersecurity training through courses, research projects, workshops, and internships.</p>
     <h3><strong>Associate Front End Web Engineer</strong></h3>
@@ -130,7 +132,7 @@ I have a proven ability to work effectively in a team and communicate with techn
         <li>GPA 3.97 / 4.0</li>
     </ul>
 </div>
-
+<p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
 <div class="progress-bar">
     <h2>MENTIONABLES</h2>
     <div class="skill">
