@@ -7,14 +7,14 @@ I have a proven ability to work effectively in a team and communicate with techn
 <div class="progress-bar">
     <div class="skill">
         <p>INCIDENT RESPONSE</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">65%</span>
+        <div class="skill-bar skill4 wow slideInLeft animated">
+            <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
         <p>CYBER THREAT INTELLIGENCE</p>
-        <div class="skill-bar skill2 wow slideInLeft animated">
-                <span class="skill-count2">75%</span>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+                <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
@@ -46,8 +46,8 @@ I have a proven ability to work effectively in a team and communicate with techn
 <div class="progress-bar">
     <div class="skill">
         <p>DRIVEN PERSONALITY</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">95%</span>
+        <div class="skill-bar skill6 wow slideInLeft animated">
+            <span class="skill-count6">90%</span>
         </div>
     </div>
     <div class="skill">
@@ -94,31 +94,50 @@ I have a proven ability to work effectively in a team and communicate with techn
     </ul>
 </div>
 
-<h2>MENTIONABLES</h2>
+<h2>EDUCATION</h2>
+<div class="cv">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <ul>
+        <li>Bullet</li>
+        <li>Bullet</li>
+        <li>Bullet</li>
+    </ul>
+</div>
 
+<h2>ACHIEVEMENTS</h2>
+<div class="cv">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    <ul>
+        <li>Bullet</li>
+        <li>Bullet</li>
+        <li>Bullet</li>
+    </ul>
+</div>
+
+<h2>MENTIONABLES</h2>
 <div class="progress-bar">
     <div class="skill">
         <p>NETWORK FUNDAMENTALS</p>
-        <div class="skill-bar skill4 wow slideInLeft animated">
-            <span class="skill-count4">100%</span>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">100%</span>
         </div>
     </div>
     <div class="skill">
         <p>LINUX</p>
-        <div class="skill-bar skill4 wow slideInLeft animated">
-            <span class="skill-count4">100%</span>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">100%</span>
         </div>
     </div>
     <div class="skill">
         <p>FORENSICS</p>
-        <div class="skill-bar skill4 wow slideInLeft animated">
+        <div class="skill-bar skill1 wow slideInLeft animated">
             <span class="skill-count4">100%</span>
         </div>
     </div>
     <div class="skill">
         <p>HTML5/CSS3</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">95%</span>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+            <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
@@ -133,4 +152,9 @@ I have a proven ability to work effectively in a team and communicate with techn
             <span class="skill-count3">75%</span>
         </div>
     </div>
+</div>
+
+<div class="progress-bar">
+    <h3>STRENGTHS</h3>
+    <p></p>
 </div>
