@@ -84,7 +84,7 @@ I have a proven ability to work effectively in a team and communicate with techn
 
 <h2>EXPERIENCE</h2>
 <div class="cv">
-    <h3>Cyber Security Analyst Intern</h3>
+    <h3><strong>Cyber Security Analyst Intern</strong></h3>
     <h4>Pacific Northwest National Laboratory (PNNL) | June, 2022 - Present</h4>
     <p>The Cyber Security Operations Center (CSOC) team specializes in incident response for PNNL systems.</p>
     <ul>
@@ -92,12 +92,27 @@ I have a proven ability to work effectively in a team and communicate with techn
         <li>Perform incident response investigations using various tools (e.g. Splunk, TheHive, Microsoft Defender)</li>
         <li>Conduct open source research to understand the PNNL threat landscape and identified top adversaries using the MITRE ATT&CK framework</li>
     </ul>
-    <h3>CrowdStrike HBCU/MSI Mentoring Program</h3>
+    <h3><strong>CrowdStrike HBCU/MSI Mentoring Program</strong></h3>
     <h4>CrowdStrike | September, 2022 - Present</h4>
     <p>A mentorship program that pairs selected students who have participated in NCL Capture the Flag competitions with experienced CrowdStrike mentors. The mentors provide guidance, advice, and support to help students navigate the challenges of the field and achieve their career goals.</p>
-    <h3>Cyber Security Intern</h3>
+    <h3><strong>Cyber Security Intern</h3>
     <h4>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - Present</h4>
     <p>The Northwest Institute for Cybersecurity Education and Research (CySER) and DoD, provide cybersecurity training through courses, research projects, workshops, and internships.</p>
+    <h3><strong>Associate Front End Web Engineer</strong></h3>
+    <h4>G5 | June, 2014 - August, 2015</h4>
+    <ul>
+        <li>Provided tier 2 support for company content management system and client web applications</li>
+        <li>Investigated software bugs and deployed updates to GitHub and Bitbucket repositories</li>
+        <li>Built positive client relationships through clear communication, customer service, and product knowledge</li>
+        <li>Increased department productivity by automating responses and improving Zendesk knowledge base</li>
+    </ul>
+    <h3><strong>Project Manager</strong></h3>
+    <h4>G5 | January, 2009 - June, 2014</h4>
+    <ul>
+        <li>Delivered more than 170+ projects on-time and on-budget for clients such as Bonaventure Property Management and National Veterinary Associates</li>
+        <li>Facilitated Agile/Scrum meetings including sprint planning, daily scrums, sprint reviews and sprint retrospectives</li>
+        <li>Handpicked as preferred Project Manager for new vertical research and product development</li>
+    </ul>
 </div>
 
 <h2>EDUCATION</h2>
