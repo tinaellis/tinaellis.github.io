@@ -138,6 +138,7 @@ I have a proven ability to work effectively in a team and communicate with techn
     <h2>STRENGTHS</h2>
     <div class="cv">
         <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
+        <br>
         <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
     </div>
 </div>
