@@ -33,6 +33,29 @@ Adding and removing accounts with explanations and argument options.
     <h3>Unique IDs and Directories</h3>
 </div>
 <div class="steps">
+<table>
+  <tr>
+    <th>Command</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td>useradd -u 1500 username</td>
+    <td>useradd -g 1501 username</td>
+    <td>useradd -d /home/user8 u8</td>
+    <td>useradd -M user9</td>
+  </tr>
+  <tr>
+    <td>u option Specifies a unique user ID (instead of default)</td>
+    <td>g option Specifies a unique group ID (instead of default)</td>
+    <td>d option Adds the user with a home directory of /user8 instead of the username “u8”</td>
+    <td>M option Doesn’t create a home directory</td>
+  </tr>
+</table>
+<em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
+</div>
+
+
+
 ### Unique IDs and Directories
 
 | Command                       | Description                                                                         |
@@ -43,7 +66,7 @@ Adding and removing accounts with explanations and argument options.
 | useradd -M user9              | M option Doesn’t create a home directory                                            |
 
 <em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
-</div>
+
 
 ### Shells
 The default shell specifies what program or process will be started when the user logs in.
