@@ -29,6 +29,10 @@ Adding and removing accounts with explanations and argument options.
 | userdel -r accountname        | Deletes the user and associated mailbox/directory stuff        |
 | passwd deleteme               | Deletes the password and allows you to create a new one        |
 
+<div class="intro">
+    <h3>Unique IDs and Directories</h3>
+</div>
+<div class="steps">
 ### Unique IDs and Directories
 
 | Command                       | Description                                                                         |
@@ -39,6 +43,7 @@ Adding and removing accounts with explanations and argument options.
 | useradd -M user9              | M option Doesn’t create a home directory                                            |
 
 <em>*ID numbers 1500, 1501, 1501 have no special meaning</em>
+</div>
 
 ### Shells
 The default shell specifies what program or process will be started when the user logs in.
