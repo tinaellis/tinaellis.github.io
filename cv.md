@@ -137,26 +137,26 @@ I have a proven ability to work effectively in a team and communicate with techn
     <h2>MENTIONABLES</h2>
     <div class="skill">
         <p>NETWORK FUNDAMENTALS</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <div class="skill-bar skill4 wow slideInLeft animated">
+            <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
         <p>LINUX</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <div class="skill-bar skill5 wow slideInLeft animated">
+            <span class="skill-count5">40%</span>
         </div>
     </div>
     <div class="skill">
         <p>FORENSICS</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <div class="skill-bar skill5 wow slideInLeft animated">
+            <span class="skill-count5">40%</span>
         </div>
     </div>
     <div class="skill">
         <p>HTML5/CSS3</p>
-        <div class="skill-bar skill2 wow slideInLeft animated">
-            <span class="skill-count2">85%</span>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
@@ -167,8 +167,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
     <div class="skill">
         <p>ADOBE PHOTOSHOP</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-            <span class="skill-count3">75%</span>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+            <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
