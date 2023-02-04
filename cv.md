@@ -3,40 +3,40 @@ I am an ambitious incident response intern with a background in project manageme
 
 I have a proven ability to work effectively in a team and communicate with technical and non-technical stakeholders. I am a quick learner with a strong work ethic and the ability to adapt to new technologies. Seeking to leverage my skills, education, passion, and experience to contribute to the incident response and threat intelligence efforts of a dynamic organization.
 
+<h2>SKILLS</h2>
 <div class="progress-bar">
-    <h2>SKILLS</h2>
     <div class="skill">
-        <p>HTML5</p>
+        <p>INCIDENT RESPONSE</p>
         <div class="skill-bar skill1 wow slideInLeft animated">
             <span class="skill-count1">95%</span>
         </div>
     </div>
     <div class="skill">
-        <p>CSS3</p>
+        <p>CYBER THREAT INTELLIGENCE</p>
         <div class="skill-bar skill2 wow slideInLeft animated">
                 <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
-        <p>JQUERY</p>
+        <p>MITRE ATT&CK</p>
         <div class="skill-bar skill3 wow slideInLeft animated">
             <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
-        <p>JAVASCRIP</p>
+        <p>PYTHON</p>
         <div class="skill-bar skill4 wow slideInLeft animated">
             <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
-        <p>PHP</p>
+        <p>SPLUNK</p>
         <div class="skill-bar skill5 wow slideInLeft animated">
             <span class="skill-count5">80%</span>
         </div>
     </div>
     <div class="skill">
-        <p>WORDPRESS</p>
+        <p>PROJECT MANAGEMENT</p>
         <div class="skill-bar skill6 wow slideInLeft animated">
             <span class="skill-count6">90%</span>
         </div>
@@ -44,48 +44,45 @@ I have a proven ability to work effectively in a team and communicate with techn
 </div>
 
 <div class="progress-bar">
-    <h2>SKILLS</h2>
     <div class="skill">
-        <p>HTML5</p>
+        <p>DRIVEN PERSONALITY</p>
         <div class="skill-bar skill1 wow slideInLeft animated">
             <span class="skill-count1">95%</span>
         </div>
     </div>
     <div class="skill">
-        <p>CSS3</p>
+        <p>SELF STARTER</p>
         <div class="skill-bar skill2 wow slideInLeft animated">
                 <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
-        <p>JQUERY</p>
+        <p>COLLABORATIVE</p>
         <div class="skill-bar skill3 wow slideInLeft animated">
             <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
-        <p>JAVASCRIP</p>
+        <p>PRIORITIZES COMMUNICATION</p>
         <div class="skill-bar skill4 wow slideInLeft animated">
             <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
-        <p>PHP</p>
+        <p>DEPENDABLE</p>
         <div class="skill-bar skill5 wow slideInLeft animated">
             <span class="skill-count5">80%</span>
         </div>
     </div>
     <div class="skill">
-        <p>WORDPRESS</p>
+        <p>TRUSTWORTHY</p>
         <div class="skill-bar skill6 wow slideInLeft animated">
             <span class="skill-count6">90%</span>
         </div>
     </div>
 </div>
 
-<div class="cv">
-    <h4>EXPERIENCE</h4>
-</div>
+<h2>EXPERIENCE</h2>
 <div class="cv">
     <h2>EXPERIENCE</h2>
     <h3>Intern</h3>
