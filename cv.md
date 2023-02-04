@@ -116,21 +116,29 @@ I have a proven ability to work effectively in a team and communicate with techn
         <li>Handpicked as preferred Project Manager for new vertical research and product development</li>
     </ul>
 </div>
-
-<h2>EDUCATION</h2>
-<div class="cv">
-    <h4>Bachelor of Applied Science (BAS) in Cyber Security</h4>
-    <ul>
-        <li>Columbia Basin College, Pasco, WA</li>
-        <li>Expected June, 2023</li>
-    </ul>
-    <h4>Associate in Applied Science (AAS) in Cyber Security</h4>
-    <ul>
-        <li>Columbia Basin College, Pasco, WA</li>
-        <li>2019 - 2022</li>
-        <li>Graduated with High Honors</li>
-        <li>GPA 3.97 / 4.0</li>
-    </ul>
+<div class="progress-bar">
+    <h2>EDUCATION</h2>
+    <div class="cv">
+        <h4>Bachelor of Applied Science (BAS) in Cyber Security</h4>
+        <ul>
+            <li>Columbia Basin College, Pasco, WA</li>
+            <li>Expected June, 2023</li>
+        </ul>
+        <h4>Associate in Applied Science (AAS) in Cyber Security</h4>
+        <ul>
+            <li>Columbia Basin College, Pasco, WA</li>
+            <li>2019 - 2022</li>
+            <li>Graduated with High Honors</li>
+            <li>GPA 3.97 / 4.0</li>
+        </ul>
+    </div>
+</div>
+    <div class="progress-bar">
+    <h2>STRENGTHS</h2>
+    <div class="cv">
+        <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
+        <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
+    </div>
 </div>
 <p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
 <div class="progress-bar">
@@ -192,12 +200,6 @@ I have a proven ability to work effectively in a team and communicate with techn
             <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
         </ul>
     </div>
-</div>
-
-<h2>STRENGTHS</h2>
-<div class="cv">
-    <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
-    <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
 </div>
 
 <h2>PROJECTS</h2>
