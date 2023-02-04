@@ -75,7 +75,7 @@ section {
 
 /* Skills Wrapper */
 .progress-bar {
-    width: 400px;
+    width: 300px;
     font-family: 'Roboto', sans-serif;
 	/* margin:0 auto; */
     .skill {
@@ -84,8 +84,7 @@ section {
         /* overflow-x:hidden;*/		
     }
     .skill > p {
-        font-size: 18px;
-        font-weight: 700;
+        font-size: 14px;
         color: #c9d1d9;
         margin: 0;
     }
@@ -113,9 +112,9 @@ section {
     .skill-bar span {
         position: absolute;
         /* border-top: 5px solid #f4392f; */
-        top: -30px;
+        top: -24px;
         padding: 0;
-        font-size: 18px;
+        font-size: 14px;
         padding: 3px 0;
         font-weight: 500;
     }
