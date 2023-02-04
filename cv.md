@@ -13,8 +13,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
     <div class="skill">
         <p>CYBER THREAT INTELLIGENCE</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-                <span class="skill-count3">75%</span>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+                <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
@@ -64,20 +64,20 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
     <div class="skill">
         <p>PRIORITIZES COMMUNICATION</p>
-        <div class="skill-bar skill4 wow slideInLeft animated">
-            <span class="skill-count4">100%</span>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">100%</span>
         </div>
     </div>
     <div class="skill">
         <p>DEPENDABLE</p>
-        <div class="skill-bar skill5 wow slideInLeft animated">
-            <span class="skill-count5">100%</span>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">100%</span>
         </div>
     </div>
     <div class="skill">
         <p>TRUSTWORTHY</p>
-        <div class="skill-bar skill6 wow slideInLeft animated">
-            <span class="skill-count6">100%</span>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">100%</span>
         </div>
     </div>
 </div>
@@ -131,7 +131,7 @@ I have a proven ability to work effectively in a team and communicate with techn
     <div class="skill">
         <p>FORENSICS</p>
         <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count4">100%</span>
+            <span class="skill-count1">100%</span>
         </div>
     </div>
     <div class="skill">
@@ -156,5 +156,7 @@ I have a proven ability to work effectively in a team and communicate with techn
 
 <div class="progress-bar">
     <h3>STRENGTHS</h3>
-    <p></p>
+    <p>Have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption </p>
+    <p>Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
+
 </div>
