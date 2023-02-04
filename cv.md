@@ -1,8 +1,4 @@
-
-
-
-<a class="github-source" href="https://github.com/speeedsam/CSS3-Animated-Skill-Prograss-bar"  target="_blank"><i class="fa fa-github"></i></a>
-<div class="wrapper">
+<div class="progress-bar">
     <h2 class="how-title">CSS3 Animated Skill Progress bar</h2>
             <br><br>
     <div class="skill">
