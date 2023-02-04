@@ -84,31 +84,31 @@ I have a proven ability to work effectively in a team and communicate with techn
 
 <h2>EXPERIENCE</h2>
 <div class="cv">
-    <h2>Cyber Security Analyst Intern</h2>
-    <h3>Pacific Northwest National Laboratory (PNNL) | June, 2022 - Present</h3>
+    <h3>Cyber Security Analyst Intern</h3>
+    <h4>Pacific Northwest National Laboratory (PNNL) | June, 2022 - Present</h4>
     <p>The Cyber Security Operations Center (CSOC) team specializes in incident response for PNNL systems.</p>
     <ul>
         <li>Analyze and triage security alerts</li>
         <li>Perform incident response investigations using various tools (e.g. Splunk, TheHive, Microsoft Defender)</li>
         <li>Conduct open source research to understand the PNNL threat landscape and identified top adversaries using the MITRE ATT&CK framework</li>
     </ul>
-    <h2>CrowdStrike HBCU/MSI Mentoring Program</h2>
-    <h3>CrowdStrike | September, 2022 - Present</h3>
+    <h3>CrowdStrike HBCU/MSI Mentoring Program</h3>
+    <h4>CrowdStrike | September, 2022 - Present</h4>
     <p>A mentorship program that pairs selected students who have participated in NCL Capture the Flag competitions with experienced CrowdStrike mentors. The mentors provide guidance, advice, and support to help students navigate the challenges of the field and achieve their career goals.</p>
-    <h2>Cyber Security Intern</h2>
-    <h3>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - Present</h3>
+    <h3>Cyber Security Intern</h3>
+    <h4>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - Present</h4>
     <p>The Northwest Institute for Cybersecurity Education and Research (CySER) and DoD, provide cybersecurity training through courses, research projects, workshops, and internships.</p>
 </div>
 
 <h2>EDUCATION</h2>
 <div class="cv">
-    <p>Bachelor of Applied Science (BAS) in Cyber Security</p>
+    <h4>Bachelor of Applied Science (BAS) in Cyber Security</h4>
     <ul>
         <li>Columbia Basin College</li>
         <li>Expected June 2023</li>
         <li>Pasco, WA</li>
     </ul>
-    <p>Associate in Applied Science (AAS) in Cyber Security</p>
+    <h4>Associate in Applied Science (AAS) in Cyber Security</h4>
     <ul>
         <li>Columbia Basin College</li>
         <li>Pasco, WA</li>
@@ -118,18 +118,7 @@ I have a proven ability to work effectively in a team and communicate with techn
     </ul>
 </div>
 
-<h2>ACHIEVEMENTS</h2>
-<div class="cv">
-    <p>National Cyber League - 91st Percentile</p>
-    <ul>
-        <li>Scored 595th place out of 6010 nationally.</li>
-        <li>Selected for the NCL / CrowdStrike Mentorship Program</li>
-    </ul>
-    <p>CyberHawks</p>
-    <ul>
-        <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
-    </ul>
-</div>
+
 
 <h2>MENTIONABLES</h2>
 <div class="progress-bar">
@@ -172,9 +161,22 @@ I have a proven ability to work effectively in a team and communicate with techn
 </div>
 
 <div class="progress-bar">
-    <div class="skill">
-        <h3>STRENGTHS</h3>
-        <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
-        <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
+    <h2>ACHIEVEMENTS</h2>
+    <div class="cv">
+        <h4>National Cyber League - 91st Percentile</h4>
+        <ul>
+            <li>Scored 595th place out of 6010 nationally.</li>
+            <li>Selected for the NCL / CrowdStrike Mentorship Program</li>
+        </ul>
+        <h4>CyberHawks</h4>
+        <ul>
+            <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
+        </ul>
     </div>
+</div>
+
+<div class="cv">
+    <h3>STRENGTHS</h3>
+    <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
+    <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
 </div>
