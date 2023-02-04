@@ -83,8 +83,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
 </div>
 
-<div class="intro">
-    <h3>EXPERIENCE</h3>
+<div class="cv">
+    <h4>EXPERIENCE</h4>
 </div>
 <div class="cv">
     <h2>EXPERIENCE</h2>

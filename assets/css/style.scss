@@ -87,6 +87,9 @@ section {
         }
         h4, h5, h6 {
             color: #ac4142;
+            h4 {
+                font-size:14px;
+            }
         }
         ul {
             list-style-image: url(../images/steps-bullet.png);
