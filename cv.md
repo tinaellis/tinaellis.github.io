@@ -41,9 +41,49 @@ I have a proven ability to work effectively in a team and communicate with techn
             <span class="skill-count6">90%</span>
         </div>
     </div>
-</div><!-- end of /.coloumn -->
+</div>
 
 <div class="progress-bar">
+    <h2>SKILLS</h2>
+    <div class="skill">
+        <p>HTML5</p>
+        <div class="skill-bar skill1 wow slideInLeft animated">
+            <span class="skill-count1">95%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>CSS3</p>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+                <span class="skill-count2">85%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>JQUERY</p>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count3">75%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>JAVASCRIP</p>
+        <div class="skill-bar skill4 wow slideInLeft animated">
+            <span class="skill-count4">65%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>PHP</p>
+        <div class="skill-bar skill5 wow slideInLeft animated">
+            <span class="skill-count5">80%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>WORDPRESS</p>
+        <div class="skill-bar skill6 wow slideInLeft animated">
+            <span class="skill-count6">90%</span>
+        </div>
+    </div>
+</div>
+
+<div class="steps">
     <h2>EXPERIENCE</h2>
     <h3>Intern</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
