@@ -40,14 +40,18 @@ Adding and removing accounts with explanations and argument options.
         </tr>
         <tr>
             <td>useradd -u 1500 username</td>
-            <td>useradd -g 1501 username</td>
-            <td>useradd -d /home/user8 u8</td>
-            <td>useradd -M user9</td>
+            <td>u option Specifies a unique user ID (instead of default)</td>
         </tr>
         <tr>
-            <td>u option Specifies a unique user ID (instead of default)</td>
+            <td>useradd -g 1501 username</td>
             <td>g option Specifies a unique group ID (instead of default)</td>
+        </tr>
+        <tr>
+            <td>useradd -d /home/user8 u8</td>
             <td>d option Adds the user with a home directory of /user8 instead of the username “u8”</td>
+        </tr>
+        <tr>
+            <td>useradd -M user9</td>
             <td>M option Doesn’t create a home directory</td>
         </tr>
     </table>
