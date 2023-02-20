@@ -6,13 +6,16 @@ docs:
 - title: CV
   url: cv
 
-- title: Python
+- title: .py
   url: python
+
+- title: CTI
+  url: cti
 
 - title: Linux
   url: linux
 
-- title: Forensics
+- title: DFED
   url: forensics
 
 - title: Networks
