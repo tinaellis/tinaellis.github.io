@@ -9,5 +9,12 @@ I became fascinated with Threat Intelligence after listening to <a href="https:/
 <p><strong>Threat hunting</strong>, on the other hand, is a proactive approach to cybersecurity that involves actively searching for signs of potential threats or malicious activity within an organization's network or systems. It involves using advanced analytics and other tools to identify anomalous behavior, suspicious patterns, and other indicators that may suggest a security breach or attack. The goal of threat hunting is to detect and respond to threats before they can cause significant harm.</p>
 <p><strong>Threat Modeling</strong>, is a process used in cybersecurity to identify and evaluate potential security threats to a system or application. It is a proactive approach that helps organizations to understand their security risks and to implement measures to address those risks before they can be exploited.</p>
 
-### Resources
-Recently, I have decided to publish some of the CTI resources I have acquired over the last few years to this blog. I haven't decided the best way to structure this data yet, but hope to have these resources published soon.
+### Books
+I'm always on the hunt for a good threat intelligence book, so send me your recommendations! Some of my favorites have been:
+
+<ul>
+    <li>Sandworm, Andy Greenberg</li>
+    <li>The Cuckoo's Egg, Clifford Stoll</li>
+    <li>Lazarus Heist, Geoff White</li>
+    <li>The Fifth Domain, Robert Knake and Richard A. Clarke</li>
+</ul> 
