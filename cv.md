@@ -37,7 +37,13 @@ I have a proven ability to work effectively in a team and communicate with techn
         </div>
     </div>
     <div class="skill">
-        <p>PROJECT MANAGEMENT</p>
+        <p>LINUX / KALI / CENTOS</p>
+        <div class="skill-bar skill6 wow slideInLeft animated">
+            <span class="skill-count6">90%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>VIRTUALBOX</p>
         <div class="skill-bar skill6 wow slideInLeft animated">
             <span class="skill-count6">90%</span>
         </div>
@@ -46,39 +52,45 @@ I have a proven ability to work effectively in a team and communicate with techn
 
 <div class="progress-bar">
     <div class="skill">
-        <p>DRIVEN PERSONALITY</p>
-        <div class="skill-bar skill6 wow slideInLeft animated">
-            <span class="skill-count6">90%</span>
+        <p>M365</p>
+        <div class="skill-bar skill4 wow slideInLeft animated">
+            <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
-        <p>SELF STARTER</p>
+        <p>PROJECT MANAGEMENT</p>
         <div class="skill-bar skill2 wow slideInLeft animated">
                 <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
-        <p>COLLABORATIVE</p>
+        <p>SCRUM</p>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+                <span class="skill-count2">85%</span>
+        </div>
+    </div>
+    <div class="skill">
+        <p>WIRESHARK</p>
         <div class="skill-bar skill3 wow slideInLeft animated">
             <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
-        <p>PRIORITIZES COMMUNICATION</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <p>VERSION CONTROL / GIT / BITBUCKET 75%</p>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count1"></span>
         </div>
     </div>
     <div class="skill">
-        <p>DEPENDABLE</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <p>HTML5/CSS3</p>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+            <span class="skill-count2">80%</span>
         </div>
     </div>
     <div class="skill">
-        <p>TRUSTWORTHY</p>
-        <div class="skill-bar skill1 wow slideInLeft animated">
-            <span class="skill-count1">100%</span>
+        <p>ADOBE SUITE | Lr | Ps | Id | Ai</p>
+        <div class="skill-bar skill2 wow slideInLeft animated">
+            <span class="skill-count2">85%</span>
         </div>
     </div>
 </div>
@@ -116,6 +128,7 @@ I have a proven ability to work effectively in a team and communicate with techn
         <li>Handpicked as preferred Project Manager for new vertical research and product development</li>
     </ul>
 </div>
+<p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
 <div class="progress-bar">
     <h2>EDUCATION</h2>
     <div class="cv">
@@ -133,63 +146,6 @@ I have a proven ability to work effectively in a team and communicate with techn
         </ul>
     </div>
 </div>
-
-<div class="progress-bar">
-    <h2>STRENGTHS</h2>
-    <div class="cv">
-        <p><strong>Making Things Simple</strong> I have managed several documentation projects from internal processes to client training materials. I enjoy boiling down complex subjects for easier consumption.</p>
-        <br>
-        <p><strong>Process Improvement</strong> Took initiative in developing an onboarding tool that simplified the collection of large amounts of client data, increasing build velocity by 30%.</p>
-    </div>
-</div>
-
-<p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
-<div class="progress-bar">
-    <h2>MENTIONABLES</h2>
-    <div class="skill">
-        <p>NETWORK FUNDAMENTALS</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-            <span class="skill-count3">65%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>LINUX</p>
-        <div class="skill-bar skill5 wow slideInLeft animated">
-            <span class="skill-count5">40%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>FORENSICS</p>
-        <div class="skill-bar skill5 wow slideInLeft animated">
-            <span class="skill-count5">40%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>HTML5/CSS3</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-            <span class="skill-count3">75%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>GITHUB</p>
-        <div class="skill-bar skill2 wow slideInLeft animated">
-                <span class="skill-count2">85%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>ADOBE PHOTOSHOP</p>
-        <div class="skill-bar skill2 wow slideInLeft animated">
-            <span class="skill-count2">85%</span>
-        </div>
-    </div>
-    <div class="skill">
-        <p>SCRUM</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-            <span class="skill-count3">75%</span>
-        </div>
-    </div>
-</div>
-
 <div class="progress-bar">
     <h2>ACHIEVEMENTS</h2>
     <div class="cv">
@@ -203,4 +159,13 @@ I have a proven ability to work effectively in a team and communicate with techn
             <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
         </ul>
     </div>
+</div>
+<h2>STRENGTHS</h2>
+<div class="cv">
+    <h4>Driven Personality</h4>
+    <p>As an individual with a strong drive, I have a natural tendency to take initiative and seek out new challenges. This proactive mentality has allowed me to thrive in a variety of professional environments, demonstrating my ability to quickly adapt to new situations. I am always striving to push myself beyond my comfort zone, seeking out opportunities to grow both personally and professionally. Whether it's taking on additional responsibilities, pursuing new projects or taking a leadership role, I am always eager to tackle new challenges head-on.</p>
+    <h4>Prioritizes Communication</h4>
+    <p>I prioritize open communication and building strong relationships with my colleagues. I believe that a collaborative approach is crucial to the success of any project, and I make it a priority to actively listen to others and seek out their input. Additionally, I pride myself on being dependable and trustworthy, always following through on my commitments and ensuring that I meet deadlines. I understand the importance of building trust within a team, and I make it a priority to consistently demonstrate my reliability and accountability.</p>
+    <h4>Lifelong Learner</h4>
+    <p>I am a naturally curious person who enjoys tinkering and exploring how things work. For me, learning is not just a means to an end, but rather an exciting journey of discovery. I firmly believe that there is always more to learn, and I am constantly seeking out opportunities to expand my knowledge and skills. Whether it involves pursuing formal education, attending industry conferences/webinars, reading, or simply tinkering with new technologies, I am always eager to gain a deeper understanding of the world around me. This passion for learning and exploration is reflected not only in my personal life, but also in my professional pursuits. I am committed to staying up-to-date with the latest trends and developments in my field, and I am excited to continue my journey of lifelong learning.</p>
 </div>
