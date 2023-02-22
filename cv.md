@@ -1,10 +1,7 @@
 ## Curriculum Vitae
-I am an ambitious incident response intern with a background in project management, wrapping up my Bachelor of Applied Science in Cyber Security degree in June 2023. I have experience analyzing and triaging security alerts, incident response, and threat hunting. Skilled in utilizing various security tools such as SIEM, IDS/IPS, and endpoint protection.
-
-I have a proven ability to work effectively in a team and communicate with technical and non-technical stakeholders. I am a quick learner with a strong work ethic and the ability to adapt to new technologies. Seeking to leverage my skills, education, passion, and experience to contribute to the incident response and threat intelligence efforts of a dynamic organization.
-
+<p>I am an ambitious incident response intern with a background in project management, set to graduate with a Bachelor of Applied Science in Cyber Security in June 2023. I have experience working in a Security Operations Center (SOC) triaging alerts and conducting investigations to identify malicious activity. My passion lies in threat intelligence, and I keep up with the latest reports and developments in my free time. My goal is to leverage my skills, education, and experience to make a positive impact on the incident response and threat intelligence efforts of a dynamic organization.</p>
 <h2>SKILLS</h2>
-<p>I have a passion for threat intelligence and in my free time, I enjoy learning about APTs and staying updated with the latest threat intelligence reports.</p>
+<p>As a versatile individual, I have developed a diverse set of skills across various fields. While I do not consider myself an expert in any one area, I have gained valuable experience and knowledge across a broad range of tools and disciplines. I thrive in dynamic and fast-paced environments, where I am able to draw upon my diverse skill set to tackle a variety of challenges.</p>
 <div class="progress-bar">
     <div class="skill">
         <p>INCIDENT RESPONSE</p>
@@ -38,8 +35,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
     <div class="skill">
         <p>LINUX / KALI / CENTOS</p>
-        <div class="skill-bar skill6 wow slideInLeft animated">
-            <span class="skill-count6">90%</span>
+        <div class="skill-bar skill3 wow slideInLeft animated">
+            <span class="skill-count3">75%</span>
         </div>
     </div>
     <div class="skill">
@@ -71,8 +68,8 @@ I have a proven ability to work effectively in a team and communicate with techn
     </div>
     <div class="skill">
         <p>WIRESHARK</p>
-        <div class="skill-bar skill3 wow slideInLeft animated">
-            <span class="skill-count3">75%</span>
+        <div class="skill-bar skill4 wow slideInLeft animated">
+            <span class="skill-count4">65%</span>
         </div>
     </div>
     <div class="skill">
@@ -84,7 +81,7 @@ I have a proven ability to work effectively in a team and communicate with techn
     <div class="skill">
         <p>HTML5/CSS3</p>
         <div class="skill-bar skill2 wow slideInLeft animated">
-            <span class="skill-count2">80%</span>
+            <span class="skill-count2">85%</span>
         </div>
     </div>
     <div class="skill">
@@ -128,7 +125,6 @@ I have a proven ability to work effectively in a team and communicate with techn
         <li>Handpicked as preferred Project Manager for new vertical research and product development</li>
     </ul>
 </div>
-<p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
 <div class="progress-bar">
     <h2>EDUCATION</h2>
     <div class="cv">
@@ -155,6 +151,7 @@ I have a proven ability to work effectively in a team and communicate with techn
             <li>Selected for the NCL / CrowdStrike Mentorship Program</li>
         </ul>
         <h4>CyberHawks</h4>
+        <p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
         <ul>
             <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
         </ul>
