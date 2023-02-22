@@ -204,10 +204,3 @@ I have a proven ability to work effectively in a team and communicate with techn
         </ul>
     </div>
 </div>
-
-<h2>PROJECTS</h2>
-Threat intelligence is an area of cyber security that I find fascinating and I am thrilled that I was tasked with creating a threat profile for Pacific Northwest National Laboratory as my research project. This project gave me the opportunity to learn more about threat groups and become familiar with the threat intelligence tools, knowledge bases, press releases, and alerts cyber security analysts leverage to enhance cyber defenses.
-
-<a href="https://github.com/tinaellis/cybersecurity-notes/blob/main/APT/Threat%20Report/Threat-Analysis-Project-Report-Paper.pdf" target="_blank">View the Threat Analysis Project Report</a>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/qj2Pot2LP5Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

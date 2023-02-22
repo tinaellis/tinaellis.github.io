@@ -6,6 +6,9 @@ docs:
 - title: CV
   url: cv
 
+- title: Projects
+  url: projects
+
 - title: .py
   url: python
 
