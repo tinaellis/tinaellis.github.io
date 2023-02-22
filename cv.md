@@ -151,9 +151,9 @@
             <li>Selected for the NCL / CrowdStrike Mentorship Program</li>
         </ul>
         <h4>CyberHawks</h4>
-        <p>I am active member of my college's cyber security club, where I have participated in Capture the Flag competitions and helped organize events.</p>
+        <p>Participate in CTF competitions and help organize events.</p>
         <ul>
-            <li>Elected Secretary for the Columbia Basin College, cyber security club.</li>
+            <li>Club Secretary 2021/2022</li>
         </ul>
     </div>
 </div>
