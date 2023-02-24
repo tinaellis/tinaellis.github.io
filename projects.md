@@ -15,5 +15,5 @@ Threat intelligence is an area of cyber security that I find fascinating and I a
 
 <h3>World Map</h3>
 <p>Because I am a visual person, I decided to create a map to help me better understand how geopolitical factors might impact threat actor motivations and campaigns. While searching for a suitable map, I discovered that Displate sells magnetic metal canvases and decided to order one of the world, <em>not realizing it came in four separate sections</em>. As I learn about different threat groups, I have added personalized magnets to the map. I also created dye-cut magnets with animal names used in CrowdStrike's naming conventions, which I keep on the map as a reminder for myself, and because they look cool.</p>
-<p>Although my map may not be an impressive project to others, I mention it in my blog because it's important to me. This map hangs on my wall adjacent to my desk, and serves as a physical reminder that these threats exist in the real world and they seek to disrupt, influence, and harm the lives of innocent people.</p>
+<p>I mention this project here because it's important to me. This map hangs on my wall adjacent to my desk and serves as a physical reminder that these threats exist in the real world and they seek to disrupt, influence, and harm the lives of innocent people.</p>
 ![World Map](/assets/images/worldmap.jpg)
