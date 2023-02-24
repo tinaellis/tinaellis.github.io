@@ -1,8 +1,8 @@
 ## Python Study Notes
-This libary contains my study notes from various python programming courses I have taken and from the textbook, Starting out with Python, 4th Edition by Tony Gaddis.
+This libary contains my study notes from various python programming courses I have taken.
 
 ### Python Programs
-The following link to Trinket.io website.
+I've uploaded the following programs to Trinket.io where you can interact with them directly. If you're new to this platform, you initiate the program by pushing the "play" button.
 
 <a href="https://trinket.io/python/4bf9efdc84?showInstructions=true" target="_blank">Rosie the Robot</a>
 
@@ -10,7 +10,7 @@ The following link to Trinket.io website.
 
 <a href="https://trinket.io/python/d1f4735339?showInstructions=true" target="_blank">Prime Number Calculator</a>
 
-### Python Code Library
+### My Personal Documentation
 <a href="python-basics">Python Basics</a>
 
 <a href="python-strings">Python Strings</a>
