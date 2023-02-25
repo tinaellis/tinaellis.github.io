@@ -12,8 +12,8 @@ docs:
 - title: .py
   url: python
 
-- title: CTI
-  url: cti
+- title: TI
+  url: ti
 
 - title: Linux
   url: linux
