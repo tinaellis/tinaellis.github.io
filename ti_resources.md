@@ -1,6 +1,7 @@
 ## Threat Intelligence Resources
 <a href="ti">Back</a>
 <h3>Learning Threat Intelligence</h3>
+<ul>
     <li><a href="https://github.com/sapphirex00/Intelligence-books" target="_blank">List of Books on Intelligence (WWII - Today)</a></li>
     <li><a href="https://www.reddit.com/r/cybersecurity/comments/11am7ny/what_is_actionable_threat_intelligence/" target="_blank">What is Actionable Threat Intelligence</a> - Reddit (ELI5)</li>
     <li><a href="https://cyware.com/educational-guides/cyber-threat-intelligence/why-do-organizations-need-to-leverage-actionable-threat-intelligence-de7d" target="_blank">Actionable Threat Intelligence</a> - Why Organizations Need to Leverage it</li>
