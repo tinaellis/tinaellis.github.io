@@ -19,7 +19,7 @@
     <li><a href="https://github.com/StrangerealIntel/CyberThreatIntel" target="_blank">Analysis of malware and Cyber Threat Intel of APT and cybercriminals groups</a></li>
     <li><a href="https://apt.securelist.com/" target="_blank">Targeted Cyber Attacks Logbook</a> - by Kaspersky</li>
     <li><a href="https://github.com/cyber-research/APTMalware" target="_blank">12 APT Groups Malware Datasets</a></li>
-    <li><a href="https://github.com/curated-intel/Ukraine-Cyber-Operations" target="_blank">Ukraine Cyber Operations</a> - by Curated Intelligence in collaboration with several venders</a></li>
+    <li><a href="https://github.com/curated-intel/Ukraine-Cyber-Operations" target="_blank">Ukraine Cyber Operations</a> - by Curated Intelligence in collaboration with several venders</li>
     <li><a href="https://www.pwndefend.com/2023/02/26/cyber-threat-intelligence-resources/" target="_blank">Cyber Threat Intelligence Resoures</a> - by PWNDFEND</li>
 </ul>
 <h3>Awesome Repos</h3>
