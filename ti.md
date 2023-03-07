@@ -5,7 +5,7 @@ I became fascinated with Threat Intelligence after listening to <a href="https:/
 <ul>
     <li><a href="ti_terminology">Terminology</a></li>
     <li><a href="ti_resources">Resources</a></li>
-    <li><a href="ti_resources">Fundamentals</a></li>
+    <li><a href="ti_fundamentals">Fundamentals</a></li>
 </ul>
 
 ### Books
