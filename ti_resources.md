@@ -10,9 +10,12 @@
     <li><a href="https://github.com/curated-intel/CTI-fundamentals" target="_blank">CTI Fundamentals</a> - from Curated Intelligence</li>
     <li><a href="https://aisel.aisnet.org/wi2017/track08/paper/3/" target="_blank">A systematic study of 22 Threat Intelligence Sharing Platforms</a></li>
     <li><a href="https://www.cisa.gov/news-events/news/traffic-light-protocol-tlp-definitions-and-usage" target="_blank">Traffic Light Protocol</a></li>
+    <li><a href="https://oasis-open.github.io/cti-documentation/" target="_blank">STIX</a> - Structured Threat Information Expression</li>
 </ul>
 <h3>Threat Intelligence</h3>
 <ul>
+    <li><a href="https://urlhaus.abuse.ch/" target="_blank">URLhaus</a></li>
+    <li><a href="https://www.virustotal.com" target="_blank">VirusTotal</a></li>
     <li><a href="https://www.cfr.org/cyber-operations/" target="_blank">Cyber Operations</a> - by CFR</li>
     <li><a href="https://github.com/CyberMonitor/APT_CyberCriminal_Campagin_Collections" target="_blank">Criminal Campaign Collection</a></li>
     <li><a href="https://pan-unit42.github.io/playbook_viewer/" target="_blank">Unit42 Playbook Viewer</a></li>
