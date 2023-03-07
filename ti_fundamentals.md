@@ -16,7 +16,7 @@
 <p>Using a collection management framework can aid with this process. Using a CMF allows you to identify data sources and track the info you are gathering for each.</p>
 <ul>
 <li><a href="https://www.dragos.com/wp-content/uploads/CMF_For_ICS.pdf" target="_blank">CMF example</a> - Dragos</li>
-<li><a href="https://www.dragos.com/wp-content/uploads/CMF_For_ICS.pdf" target="_blank">CMIF example</a> - Software Engineering Institute</li>
+<li><a href="https://studylib.net/doc/13115770/collection-management-implementation-framework-what-does-..." target="_blank">CMIF example</a> - Software Engineering Institute</li>
 </ul>
 <h3>Intelligence Frameworks</h3>
 <p>The following are three of the most commonly used intelligence frameworks that allow us to process and exploit the collected data so that it can be turned into intelligence.</p>
@@ -38,4 +38,4 @@
 <p>The MITRE ATT&CK Framework is a descriptive model used to label and study the activity that a threat actor is capable of carrying out in order to get a foothold and operate inside an environment. One of the reasons this framework is so widely used, is that it provides a common taxonomy for the cybersecurity community to describe the adversary's behavior. This framework works as a common language that both offensive and defensive researchers understand.</p>
 <p><a href="https://attack.mitre.org/" target="_blank">MITRE ATT&CK</a></p>
 
-<p><em>Study notes and excerpts taken from <a href="https://www.amazon.com/dp/1838556370" target="_blank">Practical Threat Intelligence and Data-Driven Threat Hunting:</a> A hands-on guide to threat hunting with the ATT&CK™ Framework and open source tools, by Valentina Costa-Gazcón</em></p>
+<p><em>Study notes and excerpts taken from <a href="https://www.amazon.com/dp/1838556370" target="_blank">Practical Threat Intelligence and Data-Driven Threat Hunting:</a> A hands-on guide to threat hunting with the ATT&CK™ Framework and open source tools, by Valentina Costa-Gazcón.</em></p>
