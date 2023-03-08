@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: TINAELLIS\Cybersecurity
 description: Welcome to my blog!
+plugins:
+  - jekyll-feed
