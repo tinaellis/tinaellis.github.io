@@ -16,4 +16,5 @@ I'm always on the hunt for a good threat intelligence book, so send me your reco
     <li>The Cuckoo's Egg, Clifford Stoll</li>
     <li>Lazarus Heist, Geoff White</li>
     <li>The Fifth Domain, Robert Knake and Richard A. Clarke</li>
+    <li>This Is How They Tell Me The World Ends, Nicole Perlroth</li>
 </ul> 
