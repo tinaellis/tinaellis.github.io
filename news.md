@@ -5,7 +5,7 @@ title: Google Alerts Feed
 <div id="google-alerts-feed"></div>
 
 <script>
-  const googleAlertsFeedUrl = 'https://s5tvejj1hh.execute-api.us-east-1.amazonaws.com/therealrss3';
+  const googleAlertsFeedUrl = 'https://s5tvejj1hh.execute-api.us-east-1.amazonaws.com/therealrss3/rssFeedProxy';
   const googleAlertsFeedContainer = document.getElementById('google-alerts-feed');
   
   fetch(googleAlertsFeedUrl)
