@@ -18,22 +18,25 @@ title: APT News
       const parser = new DOMParser();
       const xml = parser.parseFromString(data, 'application/xml');
       const items = xml.querySelectorAll('entry');
-      
+
       let html = '';
       items.forEach(item => {
         const date = new Date(item.querySelector('published').textContent).toLocaleDateString();
-        const link = item.querySelector('link').getAttribute('href');
-        const url = new URL(link);
-        const publisher = url.hostname;
+        const googleLink = item.querySelector('link').getAttribute('href');
+        const googleUrl = new URL(googleLink);
+        const actualLink = googleUrl.searchParams.get('url');
+        const actualUrl = new URL(actualLink);
+        const publisher = actualUrl.hostname;
+
         html += `
           <h2>${item.querySelector('title').textContent}</h2>
           <p>${item.querySelector('content').textContent}</p>
-          <p>Published on: ${date} by ${publisher}</p>
-          <a href="${link}" target="_blank">Read More</a>
+          <p>Published on: ${date}, by ${publisher}</p>
+          <a href="${actualLink}" target="_blank">Read More</a>
           <hr>
         `;
       });
-      
+
       googleAlertsFeedContainer.innerHTML = html;
     });
 </script>
