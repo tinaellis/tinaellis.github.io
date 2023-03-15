@@ -11,7 +11,7 @@ title: APT News
 <script>
   const googleAlertsFeedUrl = 'https://s5tvejj1hh.execute-api.us-east-1.amazonaws.com/therealrss3/rssFeedProxy';
   const googleAlertsFeedContainer = document.getElementById('google-alerts-feed');
-  
+
   fetch(googleAlertsFeedUrl)
     .then(response => response.text())
     .then(data => {
@@ -22,11 +22,14 @@ title: APT News
       let html = '';
       items.forEach(item => {
         const date = new Date(item.querySelector('published').textContent).toLocaleDateString();
+        const link = item.querySelector('link').getAttribute('href');
+        const url = new URL(link);
+        const publisher = url.hostname;
         html += `
           <h2>${item.querySelector('title').textContent}</h2>
           <p>${item.querySelector('content').textContent}</p>
-          <p>Published on: ${date}</p>
-          <a href="${item.querySelector('link').getAttribute('href')}" target="_blank">Read More</a>
+          <p>Published on: ${date} by ${publisher}</p>
+          <a href="${link}" target="_blank">Read More</a>
           <hr>
         `;
       });
