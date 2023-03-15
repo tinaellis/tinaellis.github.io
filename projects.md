@@ -1,4 +1,13 @@
 ## Projects
+<h3>Integrating a Google Alerts RSS Feed with a Static Website</h3>
+As it turns out, adding an RSS feed onto a static website hosted on GitHub Pages, isn't easy. Learn about the challenges I faced, my troubleshooting process, and how I leveraged AWS services to overcome these challenges.
+
+<ul>
+    <li>View my <a href="news">project writeup</a></li>
+    <li>View the final result <a href="rss-feed-project">APT RSS Newsfeed</a></li>
+</ul>
+
+
 <h3>Threat Profile</h3>
 Threat intelligence is an area of cyber security that I find fascinating and I am thrilled that I was tasked with creating a threat profile for Pacific Northwest National Laboratory as my summer 2022 internship research project. This project gave me the opportunity to learn more about threat groups and become familiar with the threat intelligence tools, knowledge bases, press releases, and alerts cyber security analysts leverage to enhance cyber defenses.
 
