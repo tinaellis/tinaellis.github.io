@@ -3,8 +3,8 @@
 As it turns out, adding an RSS feed onto a static website hosted on GitHub Pages, isn't easy. Learn about the challenges I faced, my troubleshooting process, and how I leveraged AWS services to overcome these challenges.
 
 <ul>
-    <li>View my <a href="news">project writeup</a></li>
-    <li>View the final result <a href="rss-feed-project">APT RSS Newsfeed</a></li>
+    <li>View my <a href="rss-feed-project">project writeup</a></li>
+    <li>View the final result <a href="news">APT RSS Newsfeed</a></li>
 </ul>
 
 
