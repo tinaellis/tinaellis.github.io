@@ -1,7 +1,4 @@
 # Integrating a Google Alerts RSS Feed with a Static Website
-
-<a href="projects">Projects</a>
-
 In this post, I'll share my experience integrating a Google Alerts RSS feed into a static website hosted on GitHub Pages. I'll discuss the challenges I faced, the troubleshooting process, and how I leveraged AWS services to overcome these challenges.
 
 <ul>
