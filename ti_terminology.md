@@ -43,5 +43,5 @@
 <ul>
     <li><a href="https://lolbas-project.github.io/" target="_blank">LOLBAS Project</a> - The goal of the LOLBAS project is to document every binary, script, and library that can be used for Living Off The Land techniques.</li>
     <li><a href="https://gtfobins.github.io/" target="_blank">GTFOBins</a> - UNIX version of the LOLBAS project. Includes a curated list of Unix binaries that can be used to bypass local security restrictions in misconfigured systems.</li>
+    <li><a href="https://www.loldrivers.io/" target="_blank">LOLDrivers</a> - a consolidated resource of driver-related security risks.</li>
 </ul>
-
