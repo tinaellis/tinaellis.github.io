@@ -8,6 +8,8 @@ title: APT News
 > As it turns out, adding an RSS feed onto a static website hosted on GitHub Pages, isn't easy. Learn about how I leveraged AWS services to overcome this challenge on my <a href="rss-feed-project">RSS Project </a>page.
 <div id="google-alerts-feed"></div>
 
+<div id="google-alerts-feed"></div>
+
 <script>
   const googleAlertsFeedUrl = 'https://s5tvejj1hh.execute-api.us-east-1.amazonaws.com/therealrss3/rssFeedProxy';
   const googleAlertsFeedContainer = document.getElementById('google-alerts-feed');
@@ -20,22 +22,28 @@ title: APT News
       const items = xml.querySelectorAll('entry');
 
       let html = '';
-      items.forEach(item => {
-        const date = new Date(item.querySelector('published').textContent).toLocaleDateString();
-        const googleLink = item.querySelector('link').getAttribute('href');
-        const googleUrl = new URL(googleLink);
-        const actualLink = googleUrl.searchParams.get('url');
-        const actualUrl = new URL(actualLink);
-        const publisher = actualUrl.hostname;
 
-        html += `
-          <h2>${item.querySelector('title').textContent}</h2>
-          <p>${item.querySelector('content').textContent}</p>
-          <p>Published on: ${date}, by ${publisher}</p>
-          <a href="${actualLink}" target="_blank">Read More</a>
-          <hr>
-        `;
-      });
+      // Check if there are any items
+      if (items.length === 0) {
+        html = '<p>There are no feeds currently available</p>';
+      } else {
+        items.forEach(item => {
+          const date = new Date(item.querySelector('published').textContent).toLocaleDateString();
+          const googleLink = item.querySelector('link').getAttribute('href');
+          const googleUrl = new URL(googleLink);
+          const actualLink = googleUrl.searchParams.get('url');
+          const actualUrl = new URL(actualLink);
+          const publisher = actualUrl.hostname;
+
+          html += `
+            <h2>${item.querySelector('title').textContent}</h2>
+            <p>${item.querySelector('content').textContent}</p>
+            <p>Published on: ${date}, by ${publisher}</p>
+            <a href="${actualLink}" target="_blank">Read More</a>
+            <hr>
+          `;
+        });
+      }
 
       googleAlertsFeedContainer.innerHTML = html;
     });
