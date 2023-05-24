@@ -97,17 +97,17 @@
 <div class="cv">
     <h3><strong>Cyber Security Analyst Intern</strong></h3>
     <h4>Pacific Northwest National Laboratory (PNNL) | June, 2022 - Present</h4>
-    <p>The Cyber Security Operations Center (CSOC) team specializes in incident response for PNNL systems.</p>
+    <p>As a member of the Cyber Security Operations Center (CSOC) and the Advanced Introspection & Analytics teams, my responsibilities include:</p>
     <ul>
-        <li>Analyze and triage security alerts</li>
-        <li>Perform incident response investigations using various tools (e.g. Splunk, TheHive, Microsoft Defender)</li>
-        <li>Conduct open source research to understand the PNNL threat landscape and identified top adversaries using the MITRE ATT&CK framework</li>
+        <li>Triage alerts to decide those that should be promoted to cases</li>
+        <li>Conducting investigations using various tools to identify malicious activity on the network</li>
+        <li>Conduct open source research to understand the PNNL threat landscape and top adversaries</li>
     </ul>
     <h3><strong>CrowdStrike HBCU/MSI Mentoring Program</strong></h3>
-    <h4>CrowdStrike | September, 2022 - Present</h4>
+    <h4>CrowdStrike | September, 2022 - April, 2023</h4>
     <p>A mentorship program that pairs selected students who have participated in NCL Capture the Flag competitions with experienced CrowdStrike mentors. The mentors provide guidance, advice, and support to help students navigate the challenges of the field and achieve their career goals.</p>
     <h3><strong>Cyber Security Intern</strong></h3>
-    <h4>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - Present</h4>
+    <h4>Northwest Institute for Cybersecurity Education and Research (CySER) | January, 2022 - June, 2023</h4>
     <p>The Northwest Institute for Cybersecurity Education and Research (CySER) and DoD, provide cybersecurity training through courses, research projects, workshops, and internships.</p>
     <h3><strong>Associate Front End Web Engineer</strong></h3>
     <h4>G5 | June, 2014 - August, 2015</h4>
