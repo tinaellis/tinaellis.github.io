@@ -2,7 +2,7 @@
 In this post, I'll share my experience integrating a Google Alerts RSS feed into a static website hosted on GitHub Pages. I'll discuss the challenges I faced, the troubleshooting process, and how I leveraged AWS services to overcome these challenges.
 
 <ul>
-    <li>View the final result <a href="news">APT RSS Newsfeed</a></li>
+    <li>View the final result <a href="news">RSS Newsfeed</a></li>
 </ul>
 
 ## Goal
@@ -34,21 +34,10 @@ Setting up the Lambda function and API Gateway involved several steps, including
 
 I also had to configure the API Gateway's CORS settings by adding appropriate Access-Control-Allow-Origin, Access-Control-Allow-Methods, and Access-Control-Allow-Headers headers to allow my website to interact with the API.
 
-I have no shame telling you that this process was new to me and took several hours of Googling and asking ChatGPT for help. I appreciate that ChatGPT doesn't just provide you with the answer, but also tells you the "why". Here's a snippet from one of our converations:
-
-<strong><em>When creating the integration in AWS, which HTTP method should I select?</em></strong>
 > When creating the integration in AWS API Gateway, you should select the GET HTTP method. This is because the Lambda function is fetching the RSS feed using a GET request, and your website is also expected to make a GET request to the API Gateway URL to retrieve the feed data.
 
 ### Parsing and Displaying the RSS Feed
-Just when I thought I was done, I encountered an issue where no items were being displayed on the website even though the raw XML data was being fetched correctly.
-
-After exploring every AWS API setting I could think of, I discovered that the issue was with the Google Alerts feed itself, which didn't contain any items in its XML data.
-
-Everything I read online said that you could use boolean logic to query multiple terms for your feed. Originally, I had wanted a newsfeed that was specific to Russian APTs and had put together the following query:
-```
-"russia" AND ("fin11" OR "temp.armageddon" OR "UNC4393" OR "coldriver" OR "sandworm" OR "fin7" OR "APT28" OR "APT29" OR "APT43" OR "Turla Group" OR "Energetic Bear" OR "FIN7" OR "FIN8" OR "Inception" OR "Dragonfly" OR "Advanced Persistent Threat" OR "APT" OR "hackers") 
-```
-<strong>As it turns out, the internet lies.</strong> Google was not having it, even when I simplified my search query. To resolve this, I adjusted the search terms used in the Google Alerts configuration to just search broadly for "Advanced Persistent Threats", which resulted in a populated RSS feed.
+I adjusted the search terms used in the Google Alerts configuration to just search broadly for "Advanced Persistent Threats", which resulted in a populated RSS feed.
 
 ## Final Thoughts
-Integrating a Google Alerts RSS feed into a static website presented several challenges, but with the help of AWS services like Lambda and API Gateway, I was able to create a serverless solution that fetched and displayed the RSS feed without running into CORS policy issues. I still have some changes I would like to make to dial in the search query itself and I would like to do more research on securing the API, but today I'm happy with the result. This <a href="news">project</a> showcased the power of serverless architecture and demonstrated how it can be used to overcome limitations typically encountered when working with static websites.
+Integrating a Google Alerts RSS feed into a static website presented several challenges, but with the help of AWS services like Lambda and API Gateway, I was able to create a serverless solution that fetched and displayed the RSS feed without running into CORS policy issues. This <a href="news">project</a> showcased the power of serverless architecture and demonstrated how it can be used to overcome limitations typically encountered when working with static websites.
