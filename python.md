@@ -1,6 +1,6 @@
 ## Python Study Notes
 <a href="cache">Back</a>
-This libary contains my study notes from various python programming courses I have taken.
+<p>This libary contains my study notes from various python programming courses I have taken.</p>
 
 ### Python Programs
 I've uploaded the following programs to Trinket.io where you can interact with them directly. If you're new to this platform, you initiate the program by pushing the "play" button.
