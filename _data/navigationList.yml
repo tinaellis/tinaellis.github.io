@@ -6,11 +6,14 @@ docs:
 - title: Projects
   url: projects
 
+- title: Threat Intel
+  url: ti
+
+- title: Cache
+- url: cache
+
 - title: .py
   url: python
-
-- title: TI
-  url: ti
 
 - title: Linux
   url: linux
