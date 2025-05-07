@@ -3,26 +3,14 @@ docs:
 - title: Home
   url: \
 
-- title: Projects
-  url: projects
-
 - title: Threat Intel
   url: ti
 
+- title: Projects
+  url: projects
+
 - title: Cache
-- url: cache
-
-- title: .py
-  url: python
-
-- title: Linux
-  url: linux
-
-- title: DFED
-  url: forensics
-
-- title: Networks
-  url: networks
+  url: cache
 
 - title: Community
   url: cyber_community
