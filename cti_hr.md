@@ -1,7 +1,8 @@
 ## CTI for HR: Defending Against Insider Threats
 <a href="ti_blog">Back</a>
-<p>As I read SentinelOne’s “<a href="https://www.sentinelone.com/labs/top-tier-target-what-it-takes-to-defend-a-cybersecurity-company-from-todays-adversaries/" target="_blank">Top Tier Target | What It Takes to Defend a Cybersecurity Company from Today’s Adversaries</a>” the section on “The Strategic Value of Cyber Threat Intelligence” lingered with me. It underscored a truth that’s both obvious and often overlooked: most companies don’t have a CTI team watching their blind spots, especially when the threat doesn’t come through the firewall—but through the front door in the form of a job application. Most HR teams are facing this evolving threat landscape with little more than instinct and spreadsheets. That realization struck a nerve. I wrote this resource out of urgency and respect—for the recruiters, security professionals, and business leaders who need help seeing what’s coming. This is for the people on the front lines of hiring who deserve a fighting chance against a threat they never expected to face.</p>
+<p>As I read SentinelOne’s “<a href="https://www.sentinelone.com/labs/top-tier-target-what-it-takes-to-defend-a-cybersecurity-company-from-todays-adversaries/" target="_blank">What It Takes to Defend a Cybersecurity Company from Today’s Adversaries</a>” the section on “The Strategic Value of Cyber Threat Intelligence” lingered with me. It underscored a truth that’s both obvious and often overlooked: most companies don’t have a CTI team watching their blind spots, especially when the threat doesn’t come through the firewall—but through the front door in the form of a job application. Most HR teams are facing this evolving threat landscape with little more than instinct and spreadsheets. That realization struck a nerve. I wrote this resource out of urgency and respect—for the recruiters, security professionals, and business leaders who need help seeing what’s coming. This is for the people on the front lines of hiring who deserve a fighting chance against a threat they never expected to face.</p>
 
+## The DPRK IT Fraud Worker Scheme
 In recent years, a covert cyber threat campaign has emerged in the form of North Korean IT operatives applying for remote jobs at global companies under false identities. These applicants, operating as part of a government-sanctioned effort, are tasked with earning foreign currency to fund North Korea's weapons programs and, in some cases, act as insider threats. This article explores how cyber threat intelligence (CTI) can directly support HR departments in identifying and stopping these fraud attempts before they turn into costly security incidents.
 
 ## What Roles Are Being Targeted?
@@ -15,8 +16,8 @@ In recent years, a covert cyber threat campaign has emerged in the form of North
 
 Companies hiring from the U.S. or globally are especially targeted, and large organizations like those in the Fortune 500 are frequent marks.
 
-## Threat-Aware Hiring: What HR Needs to Know
-Proactively integrating threat insights into recruiting workflows is key to staying ahead of this threat.
+## TLDR: This Is What HR Needs to Know
+Here's what you can do to stay ahead of the DPRK IT Fraud Worker Scheme.
 * Contact Info Validation: Use phone and email enrichment tools to flag VOIP numbers and shady domains.
 * Photo Analysis: Reverse image search and AI detection of applicant photos.
 * Live ID Verification: Require remote candidates to show government ID in real-time interviews.
@@ -25,7 +26,7 @@ Proactively integrating threat insights into recruiting workflows is key to stay
 * Monitoring Technical Tests: Look for copy-paste behavior, remote access tools, or concurrent sessions.
 * Escalation Paths: Empower HR to pause hiring and consult with their SOC if anything seems off.
 
-## Watch for the Following Red Flags when Screening Candidates
+## Watch For The Following Red Flags When Screening Candidates
 * Resume Similarities: Reused templates, phrasing, and formatting across different applicants.
 * High Volume of Applications: Hundreds of applications from similar profiles across multiple roles.
 * Time Zone Issues: Discrepancies between claimed location and actual availability for interviews.
@@ -39,7 +40,7 @@ Proactively integrating threat insights into recruiting workflows is key to stay
 * Scripted Interview Behavior: Over-rehearsed responses or pausing to "check" answers.
 * Suspicious Educational/Employment History: Fake companies or unverifiable foreign institutions.
 
-## Tradecraft Used by DPRK Operatives
+## Tradecraft Used By DPRK Operatives
 These actors go beyond resumes with sophisticated deception methods:
 * Generative AI for scalable fake resume and portfolio creation.
 * Laptop Farms & Remote Infrastructure to simulate local presence.
